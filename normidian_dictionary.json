@@ -87,6 +87,10 @@
     "deer": {
       "Root": "heorot",
       "Meaning": "a hoofed grazing animal with antlers"
+    },
+    "Boy": {
+      "Root": "þæ",
+      "Meaning": "A young male human"
     }
   },
   "nouns_dead": {
