@@ -764,9 +764,6 @@
     "under": {
       "Root": "under"
     },
-    "over": {
-      "Root": "ofer"
-    },
     "before": {
       "Root": "ær"
     },
@@ -817,6 +814,9 @@
     },
     "behind": {
       "Root": "æfterƿeard"
+    },
+    "over": {
+      "Root": "ƿobðe"
     }
   },
   "adverbs": {
