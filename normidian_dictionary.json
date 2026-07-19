@@ -1,0 +1,2923 @@
+{
+  "nouns_living": {
+    "king": {
+      "Root": "cyniðg",
+      "Meaning": "a male monarch who rules a kingdom"
+    },
+    "wolf": {
+      "Root": "wulf",
+      "Meaning": "a wild canine that hunts in packs"
+    },
+    "man": {
+      "Root": "mann",
+      "Meaning": "an adult male human"
+    },
+    "woman": {
+      "Root": "wif",
+      "Meaning": "an adult female human"
+    },
+    "child": {
+      "Root": "cild",
+      "Meaning": "a young human"
+    },
+    "friend": {
+      "Root": "freond",
+      "Meaning": "a person one trusts and cares for"
+    },
+    "enemy": {
+      "Root": "feond",
+      "Meaning": "a person who wishes one harm"
+    },
+    "god": {
+      "Root": "god",
+      "Meaning": "a divine being"
+    },
+    "dog": {
+      "Root": "hund",
+      "Meaning": "a domesticated canine"
+    },
+    "bird": {
+      "Root": "fugol",
+      "Meaning": "a feathered flying animal"
+    },
+    "fish": {
+      "Root": "fisc",
+      "Meaning": "a water-dwelling animal with fins"
+    },
+    "horse": {
+      "Root": "hors",
+      "Meaning": "a large hooved animal used for riding"
+    },
+    "warrior": {
+      "Root": "wigend",
+      "Meaning": "one who fights in battle"
+    },
+    "priest": {
+      "Root": "sacerd",
+      "Meaning": "a religious official"
+    },
+    "farmer": {
+      "Root": "ceorl",
+      "Meaning": "one who works the land"
+    },
+    "lord": {
+      "Root": "hlaford",
+      "Meaning": "a ruler or master of a household"
+    },
+    "lady": {
+      "Root": "hlæfdige",
+      "Meaning": "a woman of noble rank"
+    },
+    "servant": {
+      "Root": "þeow",
+      "Meaning": "one who serves another"
+    },
+    "queen": {
+      "Root": "cƿen",
+      "Meaning": "a female monarch"
+    },
+    "sheep": {
+      "Root": "sceap",
+      "Meaning": "a woolly grazing animal"
+    },
+    "bear": {
+      "Root": "bera",
+      "Meaning": "a large wild mammal"
+    },
+    "deer": {
+      "Root": "heorot",
+      "Meaning": "a hoofed grazing animal with antlers"
+    },
+    "baby": {
+      "Root": "babig",
+      "Meaning": "an infant"
+    },
+    "boy": {
+      "Root": "boye",
+      "Meaning": "a young male human"
+    },
+    "girl": {
+      "Root": "girle",
+      "Meaning": "a young female human"
+    },
+    "mother": {
+      "Root": "moþer",
+      "Meaning": "a female parent"
+    },
+    "father": {
+      "Root": "faþer",
+      "Meaning": "a male parent"
+    },
+    "brother": {
+      "Root": "broþer",
+      "Meaning": "a male sibling"
+    },
+    "sister": {
+      "Root": "sistere",
+      "Meaning": "a female sibling"
+    },
+    "son": {
+      "Root": "sone",
+      "Meaning": "a male child of a parent"
+    },
+    "daughter": {
+      "Root": "daughtere",
+      "Meaning": "a female child of a parent"
+    },
+    "grandfather": {
+      "Root": "grandfaþer",
+      "Meaning": "a father's or mother's father"
+    },
+    "grandmother": {
+      "Root": "grandmoþer",
+      "Meaning": "a father's or mother's mother"
+    },
+    "uncle": {
+      "Root": "unclee",
+      "Meaning": "a parent's brother"
+    },
+    "aunt": {
+      "Root": "aunte",
+      "Meaning": "a parent's sister"
+    },
+    "cousin": {
+      "Root": "cousine",
+      "Meaning": "a child of one's aunt or uncle"
+    },
+    "neighbor": {
+      "Root": "neighbore",
+      "Meaning": "a person who lives nearby"
+    },
+    "stranger": {
+      "Root": "strangere",
+      "Meaning": "a person one does not know"
+    },
+    "hunter": {
+      "Root": "huntere",
+      "Meaning": "a person who hunts animals"
+    },
+    "fisherman": {
+      "Root": "fishermane",
+      "Meaning": "a person who catches fish for a living"
+    },
+    "shepherd": {
+      "Root": "shepherde",
+      "Meaning": "a person who tends sheep"
+    },
+    "merchant": {
+      "Root": "merchante",
+      "Meaning": "a person who trades goods"
+    },
+    "sailor": {
+      "Root": "sailore",
+      "Meaning": "a person who works on a ship"
+    },
+    "soldier": {
+      "Root": "soldiere",
+      "Meaning": "a person who serves in an army"
+    },
+    "thief": {
+      "Root": "þief",
+      "Meaning": "a person who steals"
+    },
+    "healer": {
+      "Root": "healere",
+      "Meaning": "a person who treats the sick or injured"
+    },
+    "teacher": {
+      "Root": "teachere",
+      "Meaning": "a person who instructs others"
+    },
+    "student": {
+      "Root": "studente",
+      "Meaning": "a person who is learning"
+    },
+    "guard": {
+      "Root": "guarde",
+      "Meaning": "a person who protects a place or person"
+    },
+    "chief": {
+      "Root": "chiefe",
+      "Meaning": "the leader of a group or tribe"
+    },
+    "elder": {
+      "Root": "eldere",
+      "Meaning": "an older, respected member of a community"
+    },
+    "hero": {
+      "Root": "heroe",
+      "Meaning": "a person admired for courage or great deeds"
+    },
+    "giant": {
+      "Root": "giante",
+      "Meaning": "a being of enormous size"
+    },
+    "dragon": {
+      "Root": "dragone",
+      "Meaning": "a great winged serpent of legend"
+    },
+    "witch": {
+      "Root": "ƿitch",
+      "Meaning": "a person believed to practice magic"
+    },
+    "wizard": {
+      "Root": "ƿizard",
+      "Meaning": "a man who practices magic"
+    },
+    "prophet": {
+      "Root": "prophete",
+      "Meaning": "a person who speaks divine messages"
+    },
+    "eagle": {
+      "Root": "eaglee",
+      "Meaning": "a large bird of prey"
+    },
+    "raven": {
+      "Root": "ravene",
+      "Meaning": "a large black bird known for cunning"
+    },
+    "hawk": {
+      "Root": "hawke",
+      "Meaning": "a swift bird of prey"
+    },
+    "crow": {
+      "Root": "crowe",
+      "Meaning": "a black bird often seen as an omen"
+    },
+    "lion": {
+      "Root": "lione",
+      "Meaning": "a large, powerful wild cat"
+    },
+    "cat": {
+      "Root": "cate",
+      "Meaning": "a small domesticated feline"
+    },
+    "cow": {
+      "Root": "cowe",
+      "Meaning": "a domesticated female bovine"
+    },
+    "ox": {
+      "Root": "oxe",
+      "Meaning": "a domesticated bovine used for labor"
+    },
+    "bull": {
+      "Root": "bulle",
+      "Meaning": "a male bovine"
+    },
+    "pig": {
+      "Root": "pige",
+      "Meaning": "a domesticated animal raised for meat"
+    },
+    "boar": {
+      "Root": "boare",
+      "Meaning": "a wild pig"
+    },
+    "goat": {
+      "Root": "goate",
+      "Meaning": "a horned domesticated animal"
+    },
+    "mouse": {
+      "Root": "mousee",
+      "Meaning": "a small rodent"
+    },
+    "snake": {
+      "Root": "snakee",
+      "Meaning": "a legless reptile"
+    },
+    "spider": {
+      "Root": "spidere",
+      "Meaning": "an eight-legged creature that spins webs"
+    },
+    "bee": {
+      "Root": "beee",
+      "Meaning": "a flying insect that makes honey"
+    },
+    "hound": {
+      "Root": "hounde",
+      "Meaning": "a hunting dog"
+    },
+    "stag": {
+      "Root": "stage",
+      "Meaning": "a male deer"
+    },
+    "fox": {
+      "Root": "foxe",
+      "Meaning": "a small, cunning wild canine"
+    },
+    "mare": {
+      "Root": "maree",
+      "Meaning": "a female horse"
+    },
+    "foal": {
+      "Root": "foale",
+      "Meaning": "a young horse"
+    },
+    "lamb": {
+      "Root": "lambe",
+      "Meaning": "a young sheep"
+    },
+    "hen": {
+      "Root": "hene",
+      "Meaning": "a female chicken"
+    },
+    "rooster": {
+      "Root": "roostere",
+      "Meaning": "a male chicken"
+    }
+  },
+  "nouns_dead": {
+    "rock": {
+      "Root": "ricƿ",
+      "Meaning": "a solid mineral mass"
+    },
+    "crown": {
+      "Root": "crðnue",
+      "Meaning": "a headpiece symbolizing royalty"
+    },
+    "throne": {
+      "Root": "ðœna",
+      "Meaning": "the ceremonial seat of a ruler"
+    },
+    "sword": {
+      "Root": "swiarƿ",
+      "Meaning": "a long bladed weapon"
+    },
+    "bone": {
+      "Root": "bān",
+      "Meaning": "a rigid part of a skeleton"
+    },
+    "axe": {
+      "Root": "aks",
+      "Meaning": "a bladed tool or weapon for chopping"
+    },
+    "house": {
+      "Root": "hus",
+      "Meaning": "a building for living in"
+    },
+    "water": {
+      "Root": "ƿæter",
+      "Meaning": "a clear liquid essential for life"
+    },
+    "fire": {
+      "Root": "fyr",
+      "Meaning": "the visible effect of combustion"
+    },
+    "earth": {
+      "Root": "eorðe",
+      "Meaning": "the ground or the planet"
+    },
+    "sky": {
+      "Root": "heofon",
+      "Meaning": "the expanse above the earth"
+    },
+    "sun": {
+      "Root": "sunne",
+      "Meaning": "the star at the center of the solar system"
+    },
+    "moon": {
+      "Root": "mona",
+      "Meaning": "the natural satellite of the earth"
+    },
+    "star": {
+      "Root": "steorra",
+      "Meaning": "a luminous point in the night sky"
+    },
+    "tree": {
+      "Root": "treow",
+      "Meaning": "a tall woody plant"
+    },
+    "stone": {
+      "Root": "stan",
+      "Meaning": "a piece of rock"
+    },
+    "road": {
+      "Root": "ƿeg",
+      "Meaning": "a path for travel"
+    },
+    "city": {
+      "Root": "burg",
+      "Meaning": "a large fortified settlement"
+    },
+    "ship": {
+      "Root": "scip",
+      "Meaning": "a vessel for travel on water"
+    },
+    "book": {
+      "Root": "boc",
+      "Meaning": "a bound set of written pages"
+    },
+    "word": {
+      "Root": "ƿord",
+      "Meaning": "a unit of spoken or written language"
+    },
+    "name": {
+      "Root": "nama",
+      "Meaning": "what a person or thing is called"
+    },
+    "gold": {
+      "Root": "gold",
+      "Meaning": "a precious yellow metal"
+    },
+    "silver": {
+      "Root": "seolfor",
+      "Meaning": "a precious white metal"
+    },
+    "iron": {
+      "Root": "isen",
+      "Meaning": "a strong grey metal"
+    },
+    "shield": {
+      "Root": "scyld",
+      "Meaning": "a defensive piece of armor"
+    },
+    "spear": {
+      "Root": "spere",
+      "Meaning": "a long pointed weapon"
+    },
+    "gate": {
+      "Root": "geat",
+      "Meaning": "a hinged barrier at an entrance"
+    },
+    "wall": {
+      "Root": "ƿeall",
+      "Meaning": "an upright structure enclosing an area"
+    },
+    "bridge": {
+      "Root": "brycg",
+      "Meaning": "a structure spanning a gap"
+    },
+    "river": {
+      "Root": "ea",
+      "Meaning": "a large flowing body of water"
+    },
+    "sea": {
+      "Root": "sæ",
+      "Meaning": "a great body of salt water"
+    },
+    "forest": {
+      "Root": "ƿudu",
+      "Meaning": "a large area covered in trees"
+    },
+    "field": {
+      "Root": "feld",
+      "Meaning": "an open area of cleared land"
+    },
+    "day": {
+      "Root": "dæg",
+      "Meaning": "a period of light between two nights"
+    },
+    "night": {
+      "Root": "niht",
+      "Meaning": "the dark period between two days"
+    },
+    "year": {
+      "Root": "gear",
+      "Meaning": "a period of twelve months"
+    },
+    "time": {
+      "Root": "tid",
+      "Meaning": "the ongoing progress of events"
+    },
+    "death": {
+      "Root": "deað",
+      "Meaning": "the end of life"
+    },
+    "life": {
+      "Root": "lif",
+      "Meaning": "the state of being alive"
+    },
+    "hand": {
+      "Root": "hond",
+      "Meaning": "the part of the body at the end of the arm"
+    },
+    "head": {
+      "Root": "heafod",
+      "Meaning": "the uppermost part of the body"
+    },
+    "eye": {
+      "Root": "eage",
+      "Meaning": "the organ of sight"
+    },
+    "heart": {
+      "Root": "heorte",
+      "Meaning": "the organ that pumps blood"
+    },
+    "food": {
+      "Root": "mete",
+      "Meaning": "what is eaten to sustain life"
+    },
+    "bread": {
+      "Root": "hlaf",
+      "Meaning": "a baked food made from flour"
+    },
+    "gift": {
+      "Root": "giefu",
+      "Meaning": "something given freely"
+    },
+    "wind": {
+      "Root": "ƿind",
+      "Meaning": "moving air"
+    },
+    "rain": {
+      "Root": "regn",
+      "Meaning": "water falling from clouds"
+    },
+    "snow": {
+      "Root": "snaƿ",
+      "Meaning": "frozen precipitation"
+    },
+    "town": {
+      "Root": "tun",
+      "Meaning": "a small settlement"
+    },
+    "door": {
+      "Root": "duru",
+      "Meaning": "a movable barrier at an entrance"
+    },
+    "table": {
+      "Root": "bord",
+      "Meaning": "a flat surface on legs"
+    },
+    "mountain": {
+      "Root": "mountaine",
+      "Meaning": "a very high landform"
+    },
+    "valley": {
+      "Root": "valleig",
+      "Meaning": "low land between hills"
+    },
+    "lake": {
+      "Root": "lakee",
+      "Meaning": "a body of still water"
+    },
+    "ocean": {
+      "Root": "oceane",
+      "Meaning": "a vast body of salt water"
+    },
+    "island": {
+      "Root": "islande",
+      "Meaning": "land surrounded by water"
+    },
+    "desert": {
+      "Root": "deserte",
+      "Meaning": "a dry, barren land"
+    },
+    "cave": {
+      "Root": "cavee",
+      "Meaning": "a hollow space in rock"
+    },
+    "cliff": {
+      "Root": "cliffe",
+      "Meaning": "a steep rock face"
+    },
+    "meadow": {
+      "Root": "meadowe",
+      "Meaning": "a field of grass"
+    },
+    "garden": {
+      "Root": "gardene",
+      "Meaning": "a cultivated plot of land"
+    },
+    "farm": {
+      "Root": "farme",
+      "Meaning": "land used for growing crops or raising animals"
+    },
+    "village": {
+      "Root": "villagee",
+      "Meaning": "a small settlement"
+    },
+    "castle": {
+      "Root": "castlee",
+      "Meaning": "a fortified building"
+    },
+    "tower": {
+      "Root": "towere",
+      "Meaning": "a tall, narrow structure"
+    },
+    "roof": {
+      "Root": "roofe",
+      "Meaning": "the covering on top of a building"
+    },
+    "floor": {
+      "Root": "floore",
+      "Meaning": "the base surface of a room"
+    },
+    "window": {
+      "Root": "ƿindow",
+      "Meaning": "an opening in a wall for light"
+    },
+    "chair": {
+      "Root": "chaire",
+      "Meaning": "a seat for one person"
+    },
+    "bed": {
+      "Root": "bede",
+      "Meaning": "a piece of furniture for sleeping"
+    },
+    "cup": {
+      "Root": "cupe",
+      "Meaning": "a small container for drinking"
+    },
+    "bowl": {
+      "Root": "bowle",
+      "Meaning": "a round container for food"
+    },
+    "knife": {
+      "Root": "knifee",
+      "Meaning": "a bladed cutting tool"
+    },
+    "spoon": {
+      "Root": "spoone",
+      "Meaning": "a utensil for eating or serving"
+    },
+    "plate": {
+      "Root": "platee",
+      "Meaning": "a flat dish for food"
+    },
+    "pot": {
+      "Root": "pote",
+      "Meaning": "a round container for cooking"
+    },
+    "basket": {
+      "Root": "baskete",
+      "Meaning": "a container woven from fibers"
+    },
+    "rope": {
+      "Root": "ropee",
+      "Meaning": "a length of twisted cord"
+    },
+    "chain": {
+      "Root": "chaine",
+      "Meaning": "a series of connected metal links"
+    },
+    "key": {
+      "Root": "keye",
+      "Meaning": "a tool for opening a lock"
+    },
+    "lock": {
+      "Root": "loc",
+      "Meaning": "a device for securing a door"
+    },
+    "coin": {
+      "Root": "coine",
+      "Meaning": "a piece of metal used as money"
+    },
+    "jewel": {
+      "Root": "jewele",
+      "Meaning": "a precious stone"
+    },
+    "ring": {
+      "Root": "ringe",
+      "Meaning": "a circular band worn on a finger"
+    },
+    "necklace": {
+      "Root": "neclace",
+      "Meaning": "an ornament worn around the neck"
+    },
+    "helmet": {
+      "Root": "helmete",
+      "Meaning": "protective headgear"
+    },
+    "armor": {
+      "Root": "armore",
+      "Meaning": "protective covering worn in battle"
+    },
+    "bow": {
+      "Root": "bowe",
+      "Meaning": "a weapon that shoots arrows"
+    },
+    "arrow": {
+      "Root": "arrowe",
+      "Meaning": "a projectile shot from a bow"
+    },
+    "hammer": {
+      "Root": "hammere",
+      "Meaning": "a tool for striking"
+    },
+    "wagon": {
+      "Root": "ƿagon",
+      "Meaning": "a four-wheeled cart"
+    },
+    "cart": {
+      "Root": "carte",
+      "Meaning": "a wheeled vehicle for carrying loads"
+    },
+    "wheel": {
+      "Root": "ƿheel",
+      "Meaning": "a circular frame that turns on an axle"
+    },
+    "boat": {
+      "Root": "boate",
+      "Meaning": "a small vessel for travel on water"
+    },
+    "sail": {
+      "Root": "saile",
+      "Meaning": "a sheet that catches wind to move a ship"
+    },
+    "oar": {
+      "Root": "oare",
+      "Meaning": "a pole used to row a boat"
+    },
+    "anchor": {
+      "Root": "anchore",
+      "Meaning": "a heavy object that holds a ship in place"
+    },
+    "flag": {
+      "Root": "flage",
+      "Meaning": "a piece of cloth used as a symbol"
+    },
+    "banner": {
+      "Root": "bannere",
+      "Meaning": "a large flag or standard"
+    },
+    "letter": {
+      "Root": "lettere",
+      "Meaning": "a written message"
+    },
+    "page": {
+      "Root": "pagee",
+      "Meaning": "a single sheet of a book"
+    },
+    "ink": {
+      "Root": "inke",
+      "Meaning": "a liquid used for writing"
+    },
+    "candle": {
+      "Root": "candlee",
+      "Meaning": "a wax stick with a wick for light"
+    },
+    "lamp": {
+      "Root": "lampe",
+      "Meaning": "a device that produces light"
+    },
+    "torch": {
+      "Root": "torche",
+      "Meaning": "a burning stick used for light"
+    },
+    "smoke": {
+      "Root": "smokee",
+      "Meaning": "the visible fumes from fire"
+    },
+    "cloud": {
+      "Root": "cloude",
+      "Meaning": "a visible mass of water vapor in the sky"
+    },
+    "thunder": {
+      "Root": "þunder",
+      "Meaning": "the sound following lightning"
+    },
+    "lightning": {
+      "Root": "lightninge",
+      "Meaning": "a flash of light from a storm"
+    },
+    "storm": {
+      "Root": "storme",
+      "Meaning": "violent weather"
+    },
+    "ice": {
+      "Root": "icee",
+      "Meaning": "frozen water"
+    },
+    "frost": {
+      "Root": "froste",
+      "Meaning": "a thin coating of ice crystals"
+    },
+    "mud": {
+      "Root": "mude",
+      "Meaning": "wet, soft earth"
+    },
+    "sand": {
+      "Root": "sande",
+      "Meaning": "loose fine grains of rock"
+    },
+    "dust": {
+      "Root": "duste",
+      "Meaning": "fine dry particles"
+    },
+    "grass": {
+      "Root": "grasse",
+      "Meaning": "green plants covering the ground"
+    },
+    "leaf": {
+      "Root": "leafe",
+      "Meaning": "a flat green part of a plant"
+    },
+    "root": {
+      "Root": "roote",
+      "Meaning": "the part of a plant below ground"
+    },
+    "branch": {
+      "Root": "branche",
+      "Meaning": "a woody stem of a tree"
+    },
+    "seed": {
+      "Root": "seede",
+      "Meaning": "the part of a plant from which a new one grows"
+    },
+    "flower": {
+      "Root": "flowere",
+      "Meaning": "the colorful part of a plant that bears seed"
+    },
+    "fruit": {
+      "Root": "fruite",
+      "Meaning": "the sweet part of a plant bearing seeds"
+    },
+    "harvest": {
+      "Root": "harveste",
+      "Meaning": "the gathering of crops"
+    },
+    "wheat": {
+      "Root": "ƿheat",
+      "Meaning": "a cereal grain"
+    },
+    "corn": {
+      "Root": "corne",
+      "Meaning": "a cereal grain crop"
+    },
+    "salt": {
+      "Root": "salte",
+      "Meaning": "a mineral used to season food"
+    },
+    "honey": {
+      "Root": "honeig",
+      "Meaning": "a sweet substance made by bees"
+    },
+    "milk": {
+      "Root": "milke",
+      "Meaning": "a white liquid produced by mammals"
+    },
+    "cheese": {
+      "Root": "cheesee",
+      "Meaning": "a food made from milk"
+    },
+    "meat": {
+      "Root": "meate",
+      "Meaning": "animal flesh used as food"
+    },
+    "wine": {
+      "Root": "ƿine",
+      "Meaning": "a drink made from fermented grapes"
+    },
+    "ale": {
+      "Root": "alee",
+      "Meaning": "a fermented drink made from grain"
+    },
+    "oil": {
+      "Root": "oile",
+      "Meaning": "a thick, greasy liquid"
+    },
+    "wax": {
+      "Root": "ƿax",
+      "Meaning": "a soft, moldable substance"
+    },
+    "wood": {
+      "Root": "ƿood",
+      "Meaning": "the hard material of a tree"
+    },
+    "timber": {
+      "Root": "timbere",
+      "Meaning": "wood prepared for building"
+    },
+    "brick": {
+      "Root": "bric",
+      "Meaning": "a block of baked clay used in building"
+    },
+    "glass": {
+      "Root": "glasse",
+      "Meaning": "a hard, clear material"
+    },
+    "coal": {
+      "Root": "coale",
+      "Meaning": "a black rock burned as fuel"
+    },
+    "metal": {
+      "Root": "metale",
+      "Meaning": "a hard, shiny mineral material"
+    },
+    "copper": {
+      "Root": "coppere",
+      "Meaning": "a reddish metal"
+    },
+    "steel": {
+      "Root": "steele",
+      "Meaning": "a strong metal alloy"
+    },
+    "cloth": {
+      "Root": "cloþ",
+      "Meaning": "woven fabric"
+    },
+    "wool": {
+      "Root": "ƿool",
+      "Meaning": "the soft hair of sheep"
+    },
+    "silk": {
+      "Root": "silke",
+      "Meaning": "a fine, soft fabric"
+    },
+    "thread": {
+      "Root": "þread",
+      "Meaning": "a thin strand of fiber"
+    },
+    "needle": {
+      "Root": "needlee",
+      "Meaning": "a thin, pointed sewing tool"
+    },
+    "blanket": {
+      "Root": "blankete",
+      "Meaning": "a covering used for warmth"
+    },
+    "pillow": {
+      "Root": "pillowe",
+      "Meaning": "a cushion for the head"
+    },
+    "box": {
+      "Root": "boxe",
+      "Meaning": "a container with a lid"
+    },
+    "chest": {
+      "Root": "cheste",
+      "Meaning": "a large storage box"
+    },
+    "barrel": {
+      "Root": "barrele",
+      "Meaning": "a large cylindrical container"
+    },
+    "ladder": {
+      "Root": "laddere",
+      "Meaning": "a set of rungs for climbing"
+    },
+    "path": {
+      "Root": "paþ",
+      "Meaning": "a track for walking"
+    },
+    "trail": {
+      "Root": "traile",
+      "Meaning": "a rough path through wild land"
+    },
+    "border": {
+      "Root": "bordere",
+      "Meaning": "the edge or boundary of a land"
+    },
+    "kingdom": {
+      "Root": "kingdome",
+      "Meaning": "a land ruled by a king or queen"
+    },
+    "nation": {
+      "Root": "natione",
+      "Meaning": "a large body of people under one government"
+    },
+    "land": {
+      "Root": "lande",
+      "Meaning": "the solid part of the earth's surface"
+    },
+    "soil": {
+      "Root": "soile",
+      "Meaning": "the top layer of earth in which plants grow"
+    },
+    "harbor": {
+      "Root": "harbore",
+      "Meaning": "a sheltered place for ships"
+    },
+    "market": {
+      "Root": "markete",
+      "Meaning": "a place where goods are bought and sold"
+    },
+    "temple": {
+      "Root": "templee",
+      "Meaning": "a building for worship"
+    },
+    "church": {
+      "Root": "churche",
+      "Meaning": "a Christian building for worship"
+    },
+    "altar": {
+      "Root": "altare",
+      "Meaning": "a table used for religious rites"
+    },
+    "tomb": {
+      "Root": "tombe",
+      "Meaning": "a place where a body is buried"
+    },
+    "grave": {
+      "Root": "gravee",
+      "Meaning": "a place of burial"
+    },
+    "soul": {
+      "Root": "soule",
+      "Meaning": "the spiritual part of a person"
+    },
+    "spirit": {
+      "Root": "spirite",
+      "Meaning": "a supernatural being or essence"
+    },
+    "dream": {
+      "Root": "dreame",
+      "Meaning": "images and thoughts during sleep"
+    },
+    "memory": {
+      "Root": "memorig",
+      "Meaning": "the ability to recall the past"
+    },
+    "thought": {
+      "Root": "þæt2",
+      "Meaning": "an idea in the mind"
+    },
+    "truth": {
+      "Root": "truþ",
+      "Meaning": "that which is factually correct"
+    },
+    "law": {
+      "Root": "lawe",
+      "Meaning": "a rule established by authority"
+    },
+    "custom": {
+      "Root": "custome",
+      "Meaning": "a traditional way of behaving"
+    },
+    "feast": {
+      "Root": "feaste",
+      "Meaning": "a large, festive meal"
+    },
+    "festival": {
+      "Root": "festivale",
+      "Meaning": "a day or period of celebration"
+    },
+    "song": {
+      "Root": "songe",
+      "Meaning": "a piece of music with words"
+    },
+    "music": {
+      "Root": "musice",
+      "Meaning": "organized sound created for enjoyment"
+    },
+    "story": {
+      "Root": "storig",
+      "Meaning": "a told or written account of events"
+    },
+    "legend": {
+      "Root": "legende",
+      "Meaning": "a traditional story of uncertain truth"
+    },
+    "riddle": {
+      "Root": "riddlee",
+      "Meaning": "a puzzling question posed for fun"
+    },
+    "secret": {
+      "Root": "secrete",
+      "Meaning": "something kept hidden from others"
+    },
+    "promise": {
+      "Root": "promisee",
+      "Meaning": "a declaration to do something"
+    },
+    "oath": {
+      "Root": "oaþ",
+      "Meaning": "a solemn promise"
+    },
+    "blessing": {
+      "Root": "blessinge",
+      "Meaning": "a prayer for divine favor"
+    },
+    "prayer": {
+      "Root": "prayere",
+      "Meaning": "a solemn request to a deity"
+    },
+    "victory": {
+      "Root": "victorig",
+      "Meaning": "success in a struggle or contest"
+    },
+    "defeat": {
+      "Root": "defeate",
+      "Meaning": "loss in a battle or contest"
+    },
+    "battle": {
+      "Root": "battlee",
+      "Meaning": "a fight between armed forces"
+    },
+    "war": {
+      "Root": "ƿar",
+      "Meaning": "armed conflict between groups"
+    },
+    "peace": {
+      "Root": "peacee",
+      "Meaning": "freedom from war or conflict"
+    },
+    "journey": {
+      "Root": "journeig",
+      "Meaning": "an act of traveling from place to place"
+    },
+    "voyage": {
+      "Root": "voyagee",
+      "Meaning": "a long journey by sea"
+    },
+    "treasure": {
+      "Root": "treasuree",
+      "Meaning": "a store of valuable things"
+    },
+    "wealth": {
+      "Root": "ƿealþ",
+      "Meaning": "an abundance of valuable possessions"
+    },
+    "poverty": {
+      "Root": "povertig",
+      "Meaning": "the state of being extremely poor"
+    },
+    "hunger": {
+      "Root": "hungere",
+      "Meaning": "the need or desire for food"
+    },
+    "thirst": {
+      "Root": "þirst",
+      "Meaning": "the need or desire for drink"
+    },
+    "sickness": {
+      "Root": "sicness",
+      "Meaning": "the state of being ill"
+    },
+    "wound": {
+      "Root": "ƿound",
+      "Meaning": "an injury to the body"
+    },
+    "pain": {
+      "Root": "paine",
+      "Meaning": "an unpleasant physical sensation"
+    },
+    "joy": {
+      "Root": "joye",
+      "Meaning": "a feeling of great happiness"
+    },
+    "sorrow": {
+      "Root": "sorrowe",
+      "Meaning": "a feeling of deep distress"
+    },
+    "fear": {
+      "Root": "feare",
+      "Meaning": "an unpleasant emotion caused by danger"
+    },
+    "courage": {
+      "Root": "couragee",
+      "Meaning": "the ability to face danger without fear"
+    },
+    "wisdom": {
+      "Root": "ƿisdom",
+      "Meaning": "the quality of having experience and good judgment"
+    },
+    "honor": {
+      "Root": "honore",
+      "Meaning": "high respect or great esteem"
+    },
+    "shame": {
+      "Root": "shamee",
+      "Meaning": "a painful feeling of guilt or disgrace"
+    },
+    "glory": {
+      "Root": "glorig",
+      "Meaning": "great honor or praise"
+    },
+    "mercy": {
+      "Root": "mercig",
+      "Meaning": "compassion shown toward an offender"
+    },
+    "justice": {
+      "Root": "justicee",
+      "Meaning": "fair and reasonable treatment"
+    },
+    "freedom": {
+      "Root": "freedome",
+      "Meaning": "the power to act without restraint"
+    }
+  },
+  "verbs": {
+    "walk": {
+      "Root": "ƿlak",
+      "Meaning": "to move on foot at a regular pace"
+    },
+    "look": {
+      "Root": "lōcia",
+      "Meaning": "to direct one's gaze"
+    },
+    "see": {
+      "Root": "ġeseoh",
+      "Meaning": "to perceive with the eyes"
+    },
+    "give": {
+      "Root": "gið",
+      "Meaning": "to hand over possession of something"
+    },
+    "come": {
+      "Root": "cyme",
+      "Meaning": "to move toward the speaker"
+    },
+    "go": {
+      "Root": "ga",
+      "Meaning": "to move away from the speaker"
+    },
+    "eat": {
+      "Root": "ete",
+      "Meaning": "to consume food"
+    },
+    "drink": {
+      "Root": "drinc",
+      "Meaning": "to consume liquid"
+    },
+    "sleep": {
+      "Root": "slæp",
+      "Meaning": "to rest with eyes closed and mind unconscious"
+    },
+    "speak": {
+      "Root": "sprec",
+      "Meaning": "to say words aloud"
+    },
+    "hear": {
+      "Root": "hier",
+      "Meaning": "to perceive sound"
+    },
+    "know": {
+      "Root": "cnaƿ",
+      "Meaning": "to have information in one's mind"
+    },
+    "think": {
+      "Root": "þenc",
+      "Meaning": "to use one's mind to consider something"
+    },
+    "want": {
+      "Root": "ƿille",
+      "Meaning": "to desire something"
+    },
+    "have": {
+      "Root": "hæbbe",
+      "Meaning": "to possess something"
+    },
+    "do": {
+      "Root": "do",
+      "Meaning": "to perform an action"
+    },
+    "make": {
+      "Root": "macie",
+      "Meaning": "to create or produce something"
+    },
+    "take": {
+      "Root": "nime",
+      "Meaning": "to get hold of and remove something"
+    },
+    "find": {
+      "Root": "finde",
+      "Meaning": "to discover something after searching"
+    },
+    "love": {
+      "Root": "lufie",
+      "Meaning": "to feel deep affection for"
+    },
+    "help": {
+      "Root": "helpe",
+      "Meaning": "to assist someone"
+    },
+    "believe": {
+      "Root": "gelyfe",
+      "Meaning": "to accept something as true"
+    },
+    "live": {
+      "Root": "libbe",
+      "Meaning": "to be alive"
+    },
+    "die": {
+      "Root": "steorfe",
+      "Meaning": "to stop being alive"
+    },
+    "fight": {
+      "Root": "feohte",
+      "Meaning": "to engage in combat"
+    },
+    "run": {
+      "Root": "rinne",
+      "Meaning": "to move quickly on foot"
+    },
+    "stand": {
+      "Root": "stande",
+      "Meaning": "to be upright on one's feet"
+    },
+    "sit": {
+      "Root": "sitte",
+      "Meaning": "to rest on one's bottom"
+    },
+    "fly": {
+      "Root": "fleoge",
+      "Meaning": "to move through the air"
+    },
+    "sing": {
+      "Root": "singe",
+      "Meaning": "to make musical sounds with the voice"
+    },
+    "write": {
+      "Root": "ƿrite",
+      "Meaning": "to mark letters onto a surface"
+    },
+    "read": {
+      "Root": "ræde",
+      "Meaning": "to look at and understand written words"
+    },
+    "learn": {
+      "Root": "leornie",
+      "Meaning": "to gain knowledge or skill"
+    },
+    "teach": {
+      "Root": "tæce",
+      "Meaning": "to help someone learn"
+    },
+    "buy": {
+      "Root": "bycge",
+      "Meaning": "to obtain something by paying for it"
+    },
+    "sell": {
+      "Root": "sylle",
+      "Meaning": "to give something in exchange for payment"
+    },
+    "bring": {
+      "Root": "bringe",
+      "Meaning": "to carry something to a place"
+    },
+    "send": {
+      "Root": "sende",
+      "Meaning": "to cause something to go somewhere"
+    },
+    "open": {
+      "Root": "openie",
+      "Meaning": "to make something no longer closed"
+    },
+    "close": {
+      "Root": "belūce",
+      "Meaning": "to shut something"
+    },
+    "follow": {
+      "Root": "folgie",
+      "Meaning": "to move behind or after"
+    },
+    "lead": {
+      "Root": "læde",
+      "Meaning": "to guide or direct"
+    },
+    "build": {
+      "Root": "timbre",
+      "Meaning": "to construct something"
+    },
+    "break": {
+      "Root": "brece",
+      "Meaning": "to cause something to separate violently"
+    },
+    "keep": {
+      "Root": "healde",
+      "Meaning": "to retain possession of something"
+    },
+    "begin": {
+      "Root": "onginne",
+      "Meaning": "to start something"
+    },
+    "end": {
+      "Root": "ende",
+      "Meaning": "to bring something to a finish"
+    },
+    "remember": {
+      "Root": "gemune",
+      "Meaning": "to keep something in one's memory"
+    },
+    "forget": {
+      "Root": "forgiete",
+      "Meaning": "to fail to remember"
+    },
+    "understand": {
+      "Root": "understande",
+      "Meaning": "to grasp the meaning of something"
+    },
+    "ask": {
+      "Root": "acsie",
+      "Meaning": "to put a question to someone"
+    },
+    "answer": {
+      "Root": "andsƿarie",
+      "Meaning": "to reply to a question"
+    },
+    "laugh": {
+      "Root": "hlihhe",
+      "Meaning": "to make sounds of amusement"
+    },
+    "cry": {
+      "Root": "ƿepe",
+      "Meaning": "to shed tears"
+    },
+    "feel": {
+      "Root": "fele",
+      "Meaning": "to experience an emotion or sensation"
+    },
+    "dance": {
+      "Root": "sealtie",
+      "Meaning": "to move rhythmically to music"
+    },
+    "play": {
+      "Root": "plegie",
+      "Meaning": "to engage in an activity for enjoyment"
+    },
+    "work": {
+      "Root": "ƿyrce",
+      "Meaning": "to do labor or a task"
+    },
+    "wait": {
+      "Root": "bide",
+      "Meaning": "to stay until something happens"
+    },
+    "become": {
+      "Root": "ƿeorðe",
+      "Meaning": "to come to be something"
+    },
+    "grow": {
+      "Root": "ƿeaxe",
+      "Meaning": "to increase in size"
+    },
+    "fall": {
+      "Root": "fealle",
+      "Meaning": "to drop down freely"
+    },
+    "rise": {
+      "Root": "arise",
+      "Meaning": "to move upward"
+    },
+    "carry": {
+      "Root": "carrig",
+      "Meaning": "to transport something"
+    },
+    "catch": {
+      "Root": "catche",
+      "Meaning": "to seize something moving"
+    },
+    "chase": {
+      "Root": "chasee",
+      "Meaning": "to pursue in order to catch"
+    },
+    "choose": {
+      "Root": "choosee",
+      "Meaning": "to select from options"
+    },
+    "climb": {
+      "Root": "climbe",
+      "Meaning": "to move upward"
+    },
+    "cook": {
+      "Root": "cooke",
+      "Meaning": "to prepare food with heat"
+    },
+    "count": {
+      "Root": "counte",
+      "Meaning": "to determine a number"
+    },
+    "cover": {
+      "Root": "covere",
+      "Meaning": "to place something over another"
+    },
+    "cut": {
+      "Root": "cute",
+      "Meaning": "to divide with a sharp tool"
+    },
+    "dig": {
+      "Root": "dige",
+      "Meaning": "to break up and move earth"
+    },
+    "draw": {
+      "Root": "drawe",
+      "Meaning": "to make a picture with lines"
+    },
+    "drive": {
+      "Root": "drivee",
+      "Meaning": "to operate and direct a vehicle"
+    },
+    "drop": {
+      "Root": "drope",
+      "Meaning": "to let something fall"
+    },
+    "enter": {
+      "Root": "entere",
+      "Meaning": "to come or go into a place"
+    },
+    "escape": {
+      "Root": "escapee",
+      "Meaning": "to break free from confinement"
+    },
+    "explain": {
+      "Root": "explaine",
+      "Meaning": "to make something clear"
+    },
+    "feed": {
+      "Root": "feede",
+      "Meaning": "to give food to someone"
+    },
+    "fill": {
+      "Root": "fille",
+      "Meaning": "to make something full"
+    },
+    "finish": {
+      "Root": "finishe",
+      "Meaning": "to bring to an end"
+    },
+    "fix": {
+      "Root": "fixe",
+      "Meaning": "to repair something broken"
+    },
+    "float": {
+      "Root": "floate",
+      "Meaning": "to rest on the surface of a liquid"
+    },
+    "forgive": {
+      "Root": "forgivee",
+      "Meaning": "to stop blaming someone"
+    },
+    "gather": {
+      "Root": "gaþer",
+      "Meaning": "to bring together in one place"
+    },
+    "greet": {
+      "Root": "greete",
+      "Meaning": "to address someone with kindness"
+    },
+    "guide": {
+      "Root": "guidee",
+      "Meaning": "to show the way"
+    },
+    "hate": {
+      "Root": "hatee",
+      "Meaning": "to feel intense dislike"
+    },
+    "heal": {
+      "Root": "heale",
+      "Meaning": "to make well again"
+    },
+    "hide": {
+      "Root": "hidee",
+      "Meaning": "to put out of sight"
+    },
+    "hit": {
+      "Root": "hite",
+      "Meaning": "to strike something"
+    },
+    "hold": {
+      "Root": "holde",
+      "Meaning": "to keep in one's grasp"
+    },
+    "hope": {
+      "Root": "hopee",
+      "Meaning": "to wish for something with expectation"
+    },
+    "hunt": {
+      "Root": "hunte",
+      "Meaning": "to pursue and kill for food"
+    },
+    "hurt": {
+      "Root": "hurte",
+      "Meaning": "to cause pain"
+    },
+    "join": {
+      "Root": "joine",
+      "Meaning": "to link or become connected"
+    },
+    "judge": {
+      "Root": "judgee",
+      "Meaning": "to form an opinion after consideration"
+    },
+    "jump": {
+      "Root": "jumpe",
+      "Meaning": "to push oneself off the ground"
+    },
+    "kill": {
+      "Root": "kille",
+      "Meaning": "to cause death"
+    },
+    "kiss": {
+      "Root": "kisse",
+      "Meaning": "to touch with the lips as a sign of affection"
+    },
+    "kneel": {
+      "Root": "kneele",
+      "Meaning": "to go down on one's knees"
+    },
+    "leave": {
+      "Root": "leavee",
+      "Meaning": "to go away from a place"
+    },
+    "lend": {
+      "Root": "lende",
+      "Meaning": "to give temporarily"
+    },
+    "lie": {
+      "Root": "liee",
+      "Meaning": "to rest in a horizontal position"
+    },
+    "lift": {
+      "Root": "lifte",
+      "Meaning": "to raise to a higher position"
+    },
+    "light": {
+      "Root": "lighte",
+      "Meaning": "to set something burning"
+    },
+    "listen": {
+      "Root": "listene",
+      "Meaning": "to give attention to sound"
+    },
+    "lose": {
+      "Root": "losee",
+      "Meaning": "to no longer possess something"
+    },
+    "marry": {
+      "Root": "marrig",
+      "Meaning": "to become joined as spouses"
+    },
+    "measure": {
+      "Root": "measuree",
+      "Meaning": "to determine the size of something"
+    },
+    "meet": {
+      "Root": "meete",
+      "Meaning": "to come together with someone"
+    },
+    "melt": {
+      "Root": "melte",
+      "Meaning": "to change from solid to liquid by heat"
+    },
+    "mix": {
+      "Root": "mixe",
+      "Meaning": "to combine different substances"
+    },
+    "move": {
+      "Root": "movee",
+      "Meaning": "to change position or place"
+    },
+    "need": {
+      "Root": "neede",
+      "Meaning": "to require something"
+    },
+    "obey": {
+      "Root": "obeig",
+      "Meaning": "to comply with a command"
+    },
+    "offer": {
+      "Root": "offere",
+      "Meaning": "to present something for acceptance"
+    },
+    "order": {
+      "Root": "ordere",
+      "Meaning": "to command something to be done"
+    },
+    "own": {
+      "Root": "owne",
+      "Meaning": "to possess something"
+    },
+    "paint": {
+      "Root": "painte",
+      "Meaning": "to apply color to a surface"
+    },
+    "pay": {
+      "Root": "paye",
+      "Meaning": "to give money for something"
+    },
+    "plant": {
+      "Root": "plante",
+      "Meaning": "to put a seed in the ground"
+    },
+    "pray": {
+      "Root": "praig",
+      "Meaning": "to speak to a deity"
+    },
+    "protect": {
+      "Root": "protecte",
+      "Meaning": "to keep safe from harm"
+    },
+    "pull": {
+      "Root": "pulle",
+      "Meaning": "to move something toward oneself"
+    },
+    "push": {
+      "Root": "pushe",
+      "Meaning": "to move something away by force"
+    },
+    "raise": {
+      "Root": "raisee",
+      "Meaning": "to lift or move upward"
+    },
+    "reach": {
+      "Root": "reache",
+      "Meaning": "to stretch out to touch something"
+    },
+    "remain": {
+      "Root": "remaine",
+      "Meaning": "to stay in the same place"
+    },
+    "repair": {
+      "Root": "repaire",
+      "Meaning": "to fix something damaged"
+    },
+    "return": {
+      "Root": "returne",
+      "Meaning": "to go back to a place"
+    },
+    "reward": {
+      "Root": "rewarde",
+      "Meaning": "to give something in recognition of effort"
+    },
+    "ride": {
+      "Root": "ridee",
+      "Meaning": "to travel on an animal or vehicle"
+    },
+    "rob": {
+      "Root": "robe",
+      "Meaning": "to steal from someone"
+    },
+    "rule": {
+      "Root": "rulee",
+      "Meaning": "to have authority over others"
+    },
+    "save": {
+      "Root": "savee",
+      "Meaning": "to keep safe from harm or loss"
+    },
+    "search": {
+      "Root": "searche",
+      "Meaning": "to look for something carefully"
+    },
+    "serve": {
+      "Root": "servee",
+      "Meaning": "to perform duties for another"
+    },
+    "share": {
+      "Root": "sharee",
+      "Meaning": "to divide among several people"
+    },
+    "shine": {
+      "Root": "shinee",
+      "Meaning": "to give off light"
+    },
+    "shoot": {
+      "Root": "shoote",
+      "Meaning": "to fire a weapon"
+    },
+    "shout": {
+      "Root": "shoute",
+      "Meaning": "to speak very loudly"
+    },
+    "show": {
+      "Root": "showe",
+      "Meaning": "to make something visible"
+    },
+    "shut": {
+      "Root": "shute",
+      "Meaning": "to close something"
+    },
+    "sink": {
+      "Root": "sinke",
+      "Meaning": "to descend below the surface"
+    },
+    "smell": {
+      "Root": "smelle",
+      "Meaning": "to perceive an odor"
+    },
+    "smile": {
+      "Root": "smilee",
+      "Meaning": "to form a happy facial expression"
+    },
+    "spend": {
+      "Root": "spende",
+      "Meaning": "to use money or time"
+    },
+    "stay": {
+      "Root": "staig",
+      "Meaning": "to remain in a place"
+    },
+    "steal": {
+      "Root": "steale",
+      "Meaning": "to take without permission"
+    },
+    "stop": {
+      "Root": "stope",
+      "Meaning": "to cease movement or action"
+    },
+    "study": {
+      "Root": "studig",
+      "Meaning": "to devote time to learning"
+    },
+    "suffer": {
+      "Root": "suffere",
+      "Meaning": "to experience pain or hardship"
+    },
+    "swear": {
+      "Root": "sweare",
+      "Meaning": "to make a solemn promise"
+    },
+    "swim": {
+      "Root": "swime",
+      "Meaning": "to move through water"
+    },
+    "taste": {
+      "Root": "tastee",
+      "Meaning": "to perceive flavor"
+    },
+    "tell": {
+      "Root": "telle",
+      "Meaning": "to communicate information"
+    },
+    "throw": {
+      "Root": "þrow",
+      "Meaning": "to propel through the air"
+    },
+    "touch": {
+      "Root": "touche",
+      "Meaning": "to make physical contact"
+    },
+    "trade": {
+      "Root": "tradee",
+      "Meaning": "to exchange goods"
+    },
+    "travel": {
+      "Root": "travele",
+      "Meaning": "to journey from place to place"
+    },
+    "trust": {
+      "Root": "truste",
+      "Meaning": "to have confidence in someone"
+    },
+    "try": {
+      "Root": "trye",
+      "Meaning": "to attempt to do something"
+    },
+    "turn": {
+      "Root": "turne",
+      "Meaning": "to change direction"
+    },
+    "use": {
+      "Root": "usee",
+      "Meaning": "to employ for a purpose"
+    },
+    "visit": {
+      "Root": "visite",
+      "Meaning": "to go to see a person or place"
+    },
+    "wake": {
+      "Root": "ƿake",
+      "Meaning": "to stop sleeping"
+    },
+    "wander": {
+      "Root": "ƿander",
+      "Meaning": "to move about without a fixed course"
+    },
+    "warn": {
+      "Root": "ƿarn",
+      "Meaning": "to inform of danger in advance"
+    },
+    "wash": {
+      "Root": "ƿash",
+      "Meaning": "to clean with water"
+    },
+    "watch": {
+      "Root": "ƿatch",
+      "Meaning": "to look at attentively"
+    },
+    "wear": {
+      "Root": "ƿear",
+      "Meaning": "to have clothing on the body"
+    },
+    "weep": {
+      "Root": "ƿeep",
+      "Meaning": "to shed tears"
+    },
+    "win": {
+      "Root": "ƿin",
+      "Meaning": "to be victorious"
+    },
+    "wish": {
+      "Root": "ƿish",
+      "Meaning": "to want something"
+    },
+    "worship": {
+      "Root": "ƿorship",
+      "Meaning": "to show reverence for a deity"
+    },
+    "yield": {
+      "Root": "yielde",
+      "Meaning": "to give way or produce"
+    }
+  },
+  "adjectives": {
+    "good": {
+      "Root": "gœd",
+      "Meaning": "having positive qualities"
+    },
+    "great": {
+      "Root": "grōt",
+      "Meaning": "large in size, extent, or degree"
+    },
+    "sharp": {
+      "Root": "sharp",
+      "Meaning": "having a fine cutting edge"
+    },
+    "old": {
+      "Root": "eald",
+      "Meaning": "having lived or existed for a long time"
+    },
+    "young": {
+      "Root": "geong",
+      "Meaning": "having lived a short time"
+    },
+    "new": {
+      "Root": "niƿe",
+      "Meaning": "recently made or begun"
+    },
+    "big": {
+      "Root": "micel",
+      "Meaning": "of considerable size"
+    },
+    "small": {
+      "Root": "lytel",
+      "Meaning": "of limited size"
+    },
+    "strong": {
+      "Root": "strang",
+      "Meaning": "having great physical power"
+    },
+    "weak": {
+      "Root": "ƿac",
+      "Meaning": "lacking physical strength"
+    },
+    "fast": {
+      "Root": "sƿift",
+      "Meaning": "moving at high speed"
+    },
+    "slow": {
+      "Root": "slaƿ",
+      "Meaning": "moving at low speed"
+    },
+    "happy": {
+      "Root": "bliðe",
+      "Meaning": "feeling joy or contentment"
+    },
+    "sad": {
+      "Root": "unrot",
+      "Meaning": "feeling sorrow"
+    },
+    "angry": {
+      "Root": "yrre",
+      "Meaning": "feeling strong displeasure"
+    },
+    "wise": {
+      "Root": "ƿis",
+      "Meaning": "having good judgment"
+    },
+    "foolish": {
+      "Root": "dysig",
+      "Meaning": "lacking good sense"
+    },
+    "rich": {
+      "Root": "spedig",
+      "Meaning": "having great wealth"
+    },
+    "poor": {
+      "Root": "earm",
+      "Meaning": "having little wealth"
+    },
+    "beautiful": {
+      "Root": "fæger",
+      "Meaning": "pleasing to look at"
+    },
+    "hot": {
+      "Root": "hat",
+      "Meaning": "having a high temperature"
+    },
+    "cold": {
+      "Root": "ceald",
+      "Meaning": "having a low temperature"
+    },
+    "dark": {
+      "Root": "deorc",
+      "Meaning": "having little or no light"
+    },
+    "bright": {
+      "Root": "beorht",
+      "Meaning": "giving off or full of light"
+    },
+    "long": {
+      "Root": "lang",
+      "Meaning": "great in length"
+    },
+    "short": {
+      "Root": "sceort",
+      "Meaning": "small in length"
+    },
+    "high": {
+      "Root": "heah",
+      "Meaning": "of great vertical extent"
+    },
+    "wide": {
+      "Root": "ƿid",
+      "Meaning": "great in horizontal extent"
+    },
+    "deep": {
+      "Root": "deop",
+      "Meaning": "extending far down"
+    },
+    "true": {
+      "Root": "soþ",
+      "Meaning": "in accordance with fact"
+    },
+    "false": {
+      "Root": "leas",
+      "Meaning": "not true"
+    },
+    "free": {
+      "Root": "freo",
+      "Meaning": "not under another's control"
+    },
+    "brave": {
+      "Root": "beald",
+      "Meaning": "having courage"
+    },
+    "holy": {
+      "Root": "halig",
+      "Meaning": "dedicated to a divine purpose"
+    },
+    "whole": {
+      "Root": "hal",
+      "Meaning": "complete, not divided"
+    },
+    "full": {
+      "Root": "full",
+      "Meaning": "containing as much as possible"
+    },
+    "empty": {
+      "Root": "æmtig",
+      "Meaning": "containing nothing"
+    },
+    "many": {
+      "Root": "manig",
+      "Meaning": "a large number of"
+    },
+    "few": {
+      "Root": "feaƿa",
+      "Meaning": "a small number of"
+    },
+    "afraid": {
+      "Root": "afraide",
+      "Meaning": "feeling fear"
+    },
+    "alive": {
+      "Root": "alivee",
+      "Meaning": "living, not dead"
+    },
+    "ancient": {
+      "Root": "anciente",
+      "Meaning": "very old, from long ago"
+    },
+    "bitter": {
+      "Root": "bittere",
+      "Meaning": "having a sharp, unpleasant taste"
+    },
+    "blind": {
+      "Root": "blinde",
+      "Meaning": "unable to see"
+    },
+    "bloody": {
+      "Root": "bloodig",
+      "Meaning": "covered in or stained with blood"
+    },
+    "bold": {
+      "Root": "bolde",
+      "Meaning": "showing courage"
+    },
+    "broken": {
+      "Root": "brokene",
+      "Meaning": "damaged, in pieces"
+    },
+    "calm": {
+      "Root": "calme",
+      "Meaning": "free from agitation"
+    },
+    "careful": {
+      "Root": "carefule",
+      "Meaning": "attentive to avoid harm"
+    },
+    "clean": {
+      "Root": "cleane",
+      "Meaning": "free from dirt"
+    },
+    "clear": {
+      "Root": "cleare",
+      "Meaning": "easy to see through or understand"
+    },
+    "clever": {
+      "Root": "clevere",
+      "Meaning": "quick to understand or learn"
+    },
+    "cruel": {
+      "Root": "cruele",
+      "Meaning": "willfully causing pain"
+    },
+    "curious": {
+      "Root": "curiouse",
+      "Meaning": "eager to know or learn"
+    },
+    "dead": {
+      "Root": "deade",
+      "Meaning": "no longer alive"
+    },
+    "deaf": {
+      "Root": "deafe",
+      "Meaning": "unable to hear"
+    },
+    "delicious": {
+      "Root": "deliciouse",
+      "Meaning": "highly pleasant to taste"
+    },
+    "difficult": {
+      "Root": "difficulte",
+      "Meaning": "hard to do or understand"
+    },
+    "dirty": {
+      "Root": "dirtig",
+      "Meaning": "covered with dirt"
+    },
+    "distant": {
+      "Root": "distante",
+      "Meaning": "far away"
+    },
+    "dry": {
+      "Root": "drye",
+      "Meaning": "free from moisture"
+    },
+    "eager": {
+      "Root": "eagere",
+      "Meaning": "keenly wanting to do something"
+    },
+    "easy": {
+      "Root": "easig",
+      "Meaning": "not difficult"
+    },
+    "evil": {
+      "Root": "evile",
+      "Meaning": "morally wrong"
+    },
+    "faint": {
+      "Root": "fainte",
+      "Meaning": "lacking strength or clarity"
+    },
+    "fair": {
+      "Root": "faire",
+      "Meaning": "just, or pleasing to look at"
+    },
+    "faithful": {
+      "Root": "faiþful",
+      "Meaning": "loyal and true"
+    },
+    "famous": {
+      "Root": "famouse",
+      "Meaning": "widely known"
+    },
+    "fat": {
+      "Root": "fate",
+      "Meaning": "having a large body"
+    },
+    "fertile": {
+      "Root": "fertilee",
+      "Meaning": "able to produce abundant crops"
+    },
+    "fierce": {
+      "Root": "fiercee",
+      "Meaning": "having a violent, aggressive nature"
+    },
+    "fine": {
+      "Root": "finee",
+      "Meaning": "of high quality"
+    },
+    "flat": {
+      "Root": "flate",
+      "Meaning": "having a level surface"
+    },
+    "fresh": {
+      "Root": "freshe",
+      "Meaning": "newly made or obtained"
+    },
+    "friendly": {
+      "Root": "friendlig",
+      "Meaning": "kind and pleasant"
+    },
+    "gentle": {
+      "Root": "gentlee",
+      "Meaning": "mild in manner"
+    },
+    "glad": {
+      "Root": "glade",
+      "Meaning": "feeling pleasure"
+    },
+    "gray": {
+      "Root": "graig",
+      "Meaning": "of a color between black and white"
+    },
+    "green": {
+      "Root": "greene",
+      "Meaning": "of the color of grass"
+    },
+    "grim": {
+      "Root": "grime",
+      "Meaning": "harsh or forbidding"
+    },
+    "guilty": {
+      "Root": "guiltig",
+      "Meaning": "having committed an offense"
+    },
+    "hard": {
+      "Root": "harde",
+      "Meaning": "solid, firm, difficult to break"
+    },
+    "harsh": {
+      "Root": "harshe",
+      "Meaning": "severe or cruel"
+    },
+    "healthy": {
+      "Root": "healþig",
+      "Meaning": "in good physical condition"
+    },
+    "heavy": {
+      "Root": "heavig",
+      "Meaning": "having great weight"
+    },
+    "hidden": {
+      "Root": "hiddene",
+      "Meaning": "kept out of sight"
+    },
+    "honest": {
+      "Root": "honeste",
+      "Meaning": "truthful and sincere"
+    },
+    "horrible": {
+      "Root": "horriblee",
+      "Meaning": "causing great fear or dislike"
+    },
+    "hungry": {
+      "Root": "hungrig",
+      "Meaning": "feeling a need for food"
+    },
+    "innocent": {
+      "Root": "innocente",
+      "Meaning": "not guilty of wrongdoing"
+    },
+    "kind": {
+      "Root": "kinde",
+      "Meaning": "having a good, gentle nature"
+    },
+    "lame": {
+      "Root": "lamee",
+      "Meaning": "unable to walk properly"
+    },
+    "large": {
+      "Root": "largee",
+      "Meaning": "of great size"
+    },
+    "lazy": {
+      "Root": "lazig",
+      "Meaning": "unwilling to work"
+    },
+    "lonely": {
+      "Root": "lonelig",
+      "Meaning": "sad from being alone"
+    },
+    "loud": {
+      "Root": "loude",
+      "Meaning": "producing much noise"
+    },
+    "loyal": {
+      "Root": "loyale",
+      "Meaning": "faithful to a person or cause"
+    },
+    "mad": {
+      "Root": "made",
+      "Meaning": "mentally deranged, or very angry"
+    },
+    "mighty": {
+      "Root": "mightig",
+      "Meaning": "having great power"
+    },
+    "narrow": {
+      "Root": "narrowe",
+      "Meaning": "of small width"
+    },
+    "noble": {
+      "Root": "noblee",
+      "Meaning": "having fine personal qualities"
+    },
+    "peaceful": {
+      "Root": "peacefule",
+      "Meaning": "free from disturbance"
+    },
+    "pleasant": {
+      "Root": "pleasante",
+      "Meaning": "giving a sense of happy satisfaction"
+    },
+    "proud": {
+      "Root": "proude",
+      "Meaning": "feeling deep pleasure from achievement"
+    },
+    "pure": {
+      "Root": "puree",
+      "Meaning": "free from contamination"
+    },
+    "quiet": {
+      "Root": "cƿiet",
+      "Meaning": "making little noise"
+    },
+    "quick": {
+      "Root": "cƿic",
+      "Meaning": "moving fast"
+    },
+    "ready": {
+      "Root": "readig",
+      "Meaning": "prepared for action"
+    },
+    "red": {
+      "Root": "rede",
+      "Meaning": "of the color of blood"
+    },
+    "rough": {
+      "Root": "ræ",
+      "Meaning": "having an uneven surface"
+    },
+    "round": {
+      "Root": "rounde",
+      "Meaning": "shaped like a circle"
+    },
+    "royal": {
+      "Root": "royale",
+      "Meaning": "relating to a king or queen"
+    },
+    "ruthless": {
+      "Root": "ruþless",
+      "Meaning": "having no pity or compassion"
+    },
+    "sacred": {
+      "Root": "sacrede",
+      "Meaning": "regarded with great respect"
+    },
+    "safe": {
+      "Root": "safee",
+      "Meaning": "protected from danger"
+    },
+    "shallow": {
+      "Root": "shallowe",
+      "Meaning": "of little depth"
+    },
+    "shy": {
+      "Root": "shye",
+      "Meaning": "nervous in company of others"
+    },
+    "sick": {
+      "Root": "sic",
+      "Meaning": "unwell, ill"
+    },
+    "silent": {
+      "Root": "silente",
+      "Meaning": "making no sound"
+    },
+    "silly": {
+      "Root": "sillig",
+      "Meaning": "showing a lack of good sense"
+    },
+    "simple": {
+      "Root": "simplee",
+      "Meaning": "easily understood"
+    },
+    "sinful": {
+      "Root": "sinfule",
+      "Meaning": "committing sin"
+    },
+    "sly": {
+      "Root": "slye",
+      "Meaning": "cunning and deceitful"
+    },
+    "smooth": {
+      "Root": "smooþ",
+      "Meaning": "having an even surface"
+    },
+    "soft": {
+      "Root": "softe",
+      "Meaning": "easily yielding to pressure"
+    },
+    "solid": {
+      "Root": "solide",
+      "Meaning": "firm and stable in shape"
+    },
+    "sorry": {
+      "Root": "sorrig",
+      "Meaning": "feeling regret"
+    },
+    "sour": {
+      "Root": "soure",
+      "Meaning": "having a sharp, acidic taste"
+    },
+    "sweet": {
+      "Root": "sweete",
+      "Meaning": "having a sugary taste"
+    },
+    "steady": {
+      "Root": "steadig",
+      "Meaning": "firmly fixed, not shaking"
+    },
+    "stern": {
+      "Root": "sterne",
+      "Meaning": "serious and unrelenting"
+    },
+    "stiff": {
+      "Root": "stiffe",
+      "Meaning": "not easily bent"
+    },
+    "stormy": {
+      "Root": "stormig",
+      "Meaning": "marked by strong winds and rain"
+    },
+    "stupid": {
+      "Root": "stupide",
+      "Meaning": "lacking intelligence"
+    },
+    "sudden": {
+      "Root": "suddene",
+      "Meaning": "happening quickly, unexpectedly"
+    },
+    "swift": {
+      "Root": "swifte",
+      "Meaning": "moving very fast"
+    },
+    "tall": {
+      "Root": "talle",
+      "Meaning": "of great height"
+    },
+    "thick": {
+      "Root": "þic",
+      "Meaning": "having a large distance between opposite sides"
+    },
+    "thin": {
+      "Root": "þin",
+      "Meaning": "having little distance between opposite sides"
+    },
+    "tired": {
+      "Root": "tirede",
+      "Meaning": "in need of rest"
+    },
+    "ugly": {
+      "Root": "uglig",
+      "Meaning": "unpleasant to look at"
+    },
+    "unhappy": {
+      "Root": "unhappig",
+      "Meaning": "not happy, sad"
+    },
+    "vast": {
+      "Root": "vaste",
+      "Meaning": "extremely great in extent"
+    },
+    "warm": {
+      "Root": "ƿarm",
+      "Meaning": "having a moderately high temperature"
+    },
+    "wet": {
+      "Root": "ƿet",
+      "Meaning": "covered in liquid"
+    },
+    "white": {
+      "Root": "ƿhite",
+      "Meaning": "of the color of snow"
+    },
+    "wicked": {
+      "Root": "ƿiced",
+      "Meaning": "morally wrong"
+    },
+    "wild": {
+      "Root": "ƿild",
+      "Meaning": "not tame or domesticated"
+    },
+    "willing": {
+      "Root": "ƿilling",
+      "Meaning": "ready to do something"
+    },
+    "wounded": {
+      "Root": "ƿounded",
+      "Meaning": "having a physical injury"
+    }
+  },
+  "prepositions": {
+    "with": {
+      "Root": "mid"
+    },
+    "in": {
+      "Root": "in"
+    },
+    "on": {
+      "Root": "on"
+    },
+    "at": {
+      "Root": "æt"
+    },
+    "from": {
+      "Root": "fram"
+    },
+    "to": {
+      "Root": "to"
+    },
+    "by": {
+      "Root": "be"
+    },
+    "under": {
+      "Root": "under"
+    },
+    "over": {
+      "Root": "ofer"
+    },
+    "before": {
+      "Root": "ær"
+    },
+    "after": {
+      "Root": "æfter"
+    },
+    "through": {
+      "Root": "þurh"
+    },
+    "without": {
+      "Root": "butan"
+    },
+    "against": {
+      "Root": "ƿið"
+    },
+    "among": {
+      "Root": "betƿeox"
+    },
+    "about": {
+      "Root": "ymbe"
+    },
+    "into": {
+      "Root": "innan"
+    },
+    "out": {
+      "Root": "ut"
+    },
+    "up": {
+      "Root": "up"
+    },
+    "down": {
+      "Root": "adune"
+    },
+    "near": {
+      "Root": "neah"
+    },
+    "for": {
+      "Root": "for"
+    },
+    "above": {
+      "Root": "bufan"
+    },
+    "below": {
+      "Root": "beneoðan"
+    },
+    "between": {
+      "Root": "betƿeonum"
+    },
+    "behind": {
+      "Root": "æfterƿeard"
+    },
+    "across": {
+      "Root": "acrosse"
+    },
+    "along": {
+      "Root": "alonge"
+    },
+    "amid": {
+      "Root": "amide"
+    },
+    "around": {
+      "Root": "arounde"
+    },
+    "beside": {
+      "Root": "besidee"
+    },
+    "beyond": {
+      "Root": "beyonde"
+    },
+    "despite": {
+      "Root": "despitee"
+    },
+    "during": {
+      "Root": "duringe"
+    },
+    "inside": {
+      "Root": "insidee"
+    },
+    "outside": {
+      "Root": "outsidee"
+    },
+    "toward": {
+      "Root": "towarde"
+    },
+    "upon": {
+      "Root": "upone"
+    },
+    "within": {
+      "Root": "ƿiþin"
+    }
+  },
+  "adverbs": {
+    "quickly": {
+      "Root": "hræðe"
+    },
+    "always": {
+      "Root": "æfre"
+    },
+    "never": {
+      "Root": "næfre"
+    },
+    "often": {
+      "Root": "oft"
+    },
+    "now": {
+      "Root": "nu"
+    },
+    "here": {
+      "Root": "her"
+    },
+    "there": {
+      "Root": "þær"
+    },
+    "soon": {
+      "Root": "sona"
+    },
+    "well": {
+      "Root": "ƿel"
+    },
+    "very": {
+      "Root": "sƿiðe"
+    },
+    "again": {
+      "Root": "eft"
+    },
+    "together": {
+      "Root": "ætgædere"
+    },
+    "still": {
+      "Root": "gyt"
+    },
+    "already": {
+      "Root": "ær"
+    },
+    "today": {
+      "Root": "todæg"
+    },
+    "tomorrow": {
+      "Root": "tomerigen"
+    },
+    "yesterday": {
+      "Root": "giestrandæg"
+    },
+    "far": {
+      "Root": "feorr"
+    },
+    "forth": {
+      "Root": "forð"
+    },
+    "slowly": {
+      "Root": "slaƿlice"
+    },
+    "truly": {
+      "Root": "soþlice"
+    },
+    "greatly": {
+      "Root": "miclum"
+    },
+    "indeed": {
+      "Root": "ƿitodlice"
+    },
+    "abroad": {
+      "Root": "abroade"
+    },
+    "afterward": {
+      "Root": "afterwarde"
+    },
+    "almost": {
+      "Root": "almoste"
+    },
+    "alone": {
+      "Root": "alonee"
+    },
+    "aloud": {
+      "Root": "aloude"
+    },
+    "away": {
+      "Root": "awaig"
+    },
+    "backward": {
+      "Root": "bacward"
+    },
+    "barely": {
+      "Root": "barelig"
+    },
+    "carefully": {
+      "Root": "carefullig"
+    },
+    "certainly": {
+      "Root": "certainlig"
+    },
+    "closely": {
+      "Root": "closelig"
+    },
+    "completely": {
+      "Root": "completelig"
+    },
+    "deeply": {
+      "Root": "deeplig"
+    },
+    "directly": {
+      "Root": "directlig"
+    },
+    "eagerly": {
+      "Root": "eagerlig"
+    },
+    "early": {
+      "Root": "earlig"
+    },
+    "easily": {
+      "Root": "easilig"
+    },
+    "elsewhere": {
+      "Root": "elsewheree"
+    },
+    "equally": {
+      "Root": "ecƿallig"
+    },
+    "especially": {
+      "Root": "especiallig"
+    },
+    "finally": {
+      "Root": "finallig"
+    },
+    "firmly": {
+      "Root": "firmlig"
+    },
+    "fully": {
+      "Root": "fullig"
+    },
+    "gently": {
+      "Root": "gentlig"
+    },
+    "gladly": {
+      "Root": "gladlig"
+    },
+    "hardly": {
+      "Root": "hardlig"
+    },
+    "highly": {
+      "Root": "highlig"
+    },
+    "immediately": {
+      "Root": "immediatelig"
+    },
+    "instead": {
+      "Root": "insteade"
+    },
+    "late": {
+      "Root": "latee"
+    },
+    "loudly": {
+      "Root": "loudlig"
+    },
+    "mostly": {
+      "Root": "mostlig"
+    },
+    "nearby": {
+      "Root": "nearbig"
+    },
+    "nearly": {
+      "Root": "nearlig"
+    },
+    "outward": {
+      "Root": "outwarde"
+    },
+    "perhaps": {
+      "Root": "perhapse"
+    },
+    "quietly": {
+      "Root": "cƿietlig"
+    },
+    "rather": {
+      "Root": "raþer"
+    },
+    "recently": {
+      "Root": "recentlig"
+    },
+    "secretly": {
+      "Root": "secretlig"
+    },
+    "silently": {
+      "Root": "silentlig"
+    },
+    "simply": {
+      "Root": "simplig"
+    },
+    "somewhere": {
+      "Root": "somewheree"
+    },
+    "suddenly": {
+      "Root": "suddenlig"
+    },
+    "surely": {
+      "Root": "surelig"
+    },
+    "swiftly": {
+      "Root": "swiftlig"
+    },
+    "thoroughly": {
+      "Root": "þorælig"
+    },
+    "twice": {
+      "Root": "twicee"
+    },
+    "widely": {
+      "Root": "ƿidelig"
+    },
+    "wisely": {
+      "Root": "ƿiselig"
+    }
+  },
+  "conjunctions": {
+    "and": {
+      "Root": "ond"
+    },
+    "or": {
+      "Root": "oððe"
+    },
+    "but": {
+      "Root": "ac"
+    },
+    "if": {
+      "Root": "gif"
+    },
+    "because": {
+      "Root": "forðamþe"
+    },
+    "although": {
+      "Root": "þeah"
+    },
+    "when": {
+      "Root": "þonne"
+    },
+    "while": {
+      "Root": "þenden"
+    },
+    "since": {
+      "Root": "siððan"
+    },
+    "that": {
+      "Root": "þæt"
+    },
+    "so": {
+      "Root": "sƿa"
+    },
+    "until": {
+      "Root": "oðþæt"
+    },
+    "than": {
+      "Root": "þonne_þe"
+    },
+    "as": {
+      "Root": "sƿa_sƿa"
+    },
+    "before that": {
+      "Root": "ærþamþe"
+    },
+    "either": {
+      "Root": "eiþer"
+    },
+    "neither": {
+      "Root": "neiþer"
+    },
+    "nor": {
+      "Root": "nore"
+    },
+    "once": {
+      "Root": "oncee"
+    },
+    "provided": {
+      "Root": "providede"
+    },
+    "though": {
+      "Root": "þæ"
+    },
+    "unless": {
+      "Root": "unlesse"
+    },
+    "whereas": {
+      "Root": "ƿhereas"
+    },
+    "wherever": {
+      "Root": "ƿherever"
+    },
+    "yet": {
+      "Root": "yete"
+    }
+  }
+}
