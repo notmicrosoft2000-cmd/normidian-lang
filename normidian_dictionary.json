@@ -323,6 +323,10 @@
     "rooster": {
       "Root": "roostere",
       "Meaning": "a male chicken"
+    },
+    "Kasa": {
+      "Root": "ugly",
+      "Meaning": "kasa"
     }
   },
   "nouns_dead": {
