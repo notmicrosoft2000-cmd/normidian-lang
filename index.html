@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Normidian — a constructed language with Old English roots. The Normidian Translator app, the living dictionary, and how to run it. A Neptune Productions project.">
+  <meta name="description" content="Normidian — a constructed language with Old English roots. The Normidian Translator app, a live demo, the 761-word dictionary, and downloads. A Neptune Productions project.">
   <meta name="theme-color" content="#141210">
   <title>NORMI DIAN — the tongue &amp; the translator</title>
-  <link rel="icon" type="image/png" href="windowq.png">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -17,30 +17,45 @@
   <div class="vellum" aria-hidden="true"></div>
 
   <header class="sitehead">
-    <div class="brand">NEPTUNE PRODUCTIONS <span class="dim">[C]</span></div>
+    <div class="brand">NEPTUNE PRODUCTIONS <span class="dim">[C]</span> <span class="brand-glyph">þ</span></div>
     <nav class="menubar" aria-label="Site navigation">
       <a href="#tongue">THE TONGUE</a>
+      <a href="#try">TRY IT</a>
       <a href="#grammar">THE GRAMMAR</a>
-      <a href="#translator">THE TRANSLATOR</a>
+      <a href="#translator">THE APP</a>
       <a href="#dictionary">THE DICTIONARY</a>
-      <a href="#run">RUN IT</a>
+      <a href="#release">DOWNLOADS</a>
     </nav>
   </header>
 
   <main>
     <section class="hero" id="tongue">
-      <p class="rune-line" aria-hidden="true">þ ð ƿ æ œ · &nbsp;sealde &nbsp;mód</p>
+      <p class="rune-line" aria-hidden="true">þ ð ƿ æ œ ġ · &nbsp;sealde &nbsp;mód</p>
       <h1 class="title">NORMI&nbsp;DIAN</h1>
       <p class="tagline">A tongue built on Old English. A translator that turns any language into it.</p>
       <div class="hero-note">
         <p>Normidian is a constructed language — grammar rules and all. The words lean Old English: <span class="rune">þ</span> for <em>th</em>, <span class="rune">ð</span> for the soft <em>th</em>, <span class="rune">ƿ</span> for <em>w</em>, <span class="rune">æ</span> and <span class="rune">œ</span> hiding in the vowels.</p>
-        <p>The dictionary is <em>alive</em> — 761 words and growing, kept on GitHub so every copy of the translator can pull the latest.</p>
+        <p>The dictionary is <em>alive</em> — 761 words and growing, kept on GitHub so every copy of the translator can pull the latest. And now, so can this page: the demo below translates against the <em>real</em> word list.</p>
       </div>
       <div class="hero-actions">
-        <a class="btn btn-primary" href="#translator">[ THE TRANSLATOR ]</a>
-        <a class="btn btn-ghost" href="#dictionary">[ READ THE DICTIONARY ]</a>
+        <a class="btn btn-primary" href="#try">[ TRY THE TONGUE ]</a>
+        <a class="btn btn-ghost" href="#release">[ DOWNLOAD THE APP ]</a>
       </div>
-      <p class="foot-note">SEVEN PARTS OF SPEECH · LIVING AND DEAD NOUNS · CASE SUFFIXES ON EVERY WORD</p>
+      <p class="foot-note">SEVEN PARTS OF SPEECH · LIVING AND DEAD NOUNS · CASE SUFFIXES ON EVERY WORD · 761 ROOTS</p>
+    </section>
+
+    <section class="section" id="try">
+      <h2 class="section-title"><span class="rune-red">þ</span> TRY THE TONGUE</h2>
+      <p class="section-sub">Type English. The page translates it using the real dictionary and the real grammar rules, live.</p>
+      <div class="translator">
+        <div class="t-bar">ENGLISH&nbsp;→&nbsp;NORMI&nbsp;DIAN <span class="t-now">live · against the real word list</span></div>
+        <textarea id="demoIn" class="t-in" rows="2" placeholder="the king sees the wolf quickly...">the king sees the wolf quickly and the wolf never sleeps</textarea>
+        <div class="t-out" id="demoOut"></div>
+        <div class="t-hint">nouns take articles · verbs end in -ƿues · <code>not</code> binds as ne- · unknown words wait in [brackets]</div>
+      </div>
+      <div class="legend">
+        <span class="dot noun">noun</span><span class="dot verb">verb</span><span class="dot adj">adjective</span><span class="dot prep">preposition</span><span class="dot adv">adverb</span><span class="dot conj">conjunction</span><span class="dot unk">untranslated</span>
+      </div>
     </section>
 
     <section class="section" id="grammar">
@@ -79,7 +94,7 @@ not see → ne-ġeseoh</pre>
     </section>
 
     <section class="section" id="translator">
-      <h2 class="section-title"><span class="rune-red">þ</span> THE TRANSLATOR</h2>
+      <h2 class="section-title"><span class="rune-red">þ</span> THE APP</h2>
       <p class="section-sub">A desktop app built on CustomTkinter. It translates to and from Normidian.</p>
       <div class="feature-grid">
         <article class="card">
@@ -137,8 +152,34 @@ not see → ne-ġeseoh</pre>
       </div>
     </section>
 
+    <section class="section" id="release">
+      <h2 class="section-title"><span class="rune-red">þ</span> THE RELEASE</h2>
+      <p class="section-sub">Windows builds, self-contained. Unzip, double-click, done. No install.</p>
+      <div class="dl-grid">
+        <a class="dl-card" href="https://github.com/notmicrosoft2000-cmd/normidian-lang/releases/download/v1.0/NormidianTranslator.zip" target="_blank" rel="noopener">
+          <h3>NORMI&nbsp;DIAN&nbsp;TRANSLATOR</h3>
+          <p class="dl-meta">WINDOWS · ZIP · 27 MB</p>
+          <p class="dl-desc">The full app — any language to and from Normidian, colour-coded grammar, offline cache.</p>
+          <span class="dl-btn">[ DOWNLOAD ]</span>
+        </a>
+        <a class="dl-card" href="https://github.com/notmicrosoft2000-cmd/normidian-lang/releases/download/v1.0/NormidianDictionaryManager.exe" target="_blank" rel="noopener">
+          <h3>DICTIONARY&nbsp;MANAGER</h3>
+          <p class="dl-meta">WINDOWS · EXE · 16 MB</p>
+          <p class="dl-desc">Browse, edit and save words back to the GitHub dictionary. For keepers of the tongue.</p>
+          <span class="dl-btn">[ DOWNLOAD ]</span>
+        </a>
+        <a class="dl-card" href="https://github.com/notmicrosoft2000-cmd/normidian-lang/releases/download/v1.0/normidiansourcecode.zip" target="_blank" rel="noopener">
+          <h3>THE&nbsp;SOURCE</h3>
+          <p class="dl-meta">PYTHON · ZIP</p>
+          <p class="dl-desc">Everything, in plain Python. Run it on any OS that has Python 3.</p>
+          <span class="dl-btn">[ DOWNLOAD ]</span>
+        </a>
+      </div>
+      <p class="section-sub dim">OR <a href="#run" class="inline-link">RUN IT FROM SOURCE</a> ON ANY OS · THE APP PULLS THIS REPO'S DICTIONARY ON START</p>
+    </section>
+
     <section class="section" id="run">
-      <h2 class="section-title"><span class="rune-red">þ</span> RUN IT</h2>
+      <h2 class="section-title"><span class="rune-red">þ</span> RUN IT FROM SOURCE</h2>
       <p class="section-sub">The translator needs Python 3 and a couple of libraries.</p>
       <pre class="code-block">pip install -r requirements.txt
 python translator_app.py
@@ -163,5 +204,10 @@ python build.py</pre>
     <p class="dim">The tongue, kept alive. <em>Sealde móde, ond lǣnne word.</em></p>
   </footer>
 
+  <script>window.SFX_CONFIG = { hover: { f: 1500, d: 0.02, t: "sine", v: 0.012 }, click: { f: 620, d: 0.09, t: "triangle", v: 0.04 } };</script>
+  <script src="js/sfx.js"></script>
+  <script src="js/words.js"></script>
+  <script src="js/demo.js"></script>
+  <script src="js/site.js"></script>
 </body>
 </html>
