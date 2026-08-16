@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Normidian — a constructed language with Old English roots. The Normidian Translator app, the living dictionary, and how to run it. A Neptune Productions project.">
+  <meta name="theme-color" content="#141210">
+  <title>NORMI DIAN — the tongue &amp; the translator</title>
+  <link rel="icon" type="image/png" href="windowq.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="vellum" aria-hidden="true"></div>
+
+  <header class="sitehead">
+    <div class="brand">NEPTUNE PRODUCTIONS <span class="dim">[C]</span></div>
+    <nav class="menubar" aria-label="Site navigation">
+      <a href="#tongue">THE TONGUE</a>
+      <a href="#grammar">THE GRAMMAR</a>
+      <a href="#translator">THE TRANSLATOR</a>
+      <a href="#dictionary">THE DICTIONARY</a>
+      <a href="#run">RUN IT</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="tongue">
+      <p class="rune-line" aria-hidden="true">þ ð ƿ æ œ · &nbsp;sealde &nbsp;mód</p>
+      <h1 class="title">NORMI&nbsp;DIAN</h1>
+      <p class="tagline">A tongue built on Old English. A translator that turns any language into it.</p>
+      <div class="hero-note">
+        <p>Normidian is a constructed language — grammar rules and all. The words lean Old English: <span class="rune">þ</span> for <em>th</em>, <span class="rune">ð</span> for the soft <em>th</em>, <span class="rune">ƿ</span> for <em>w</em>, <span class="rune">æ</span> and <span class="rune">œ</span> hiding in the vowels.</p>
+        <p>The dictionary is <em>alive</em> — 761 words and growing, kept on GitHub so every copy of the translator can pull the latest.</p>
+      </div>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#translator">[ THE TRANSLATOR ]</a>
+        <a class="btn btn-ghost" href="#dictionary">[ READ THE DICTIONARY ]</a>
+      </div>
+      <p class="foot-note">SEVEN PARTS OF SPEECH · LIVING AND DEAD NOUNS · CASE SUFFIXES ON EVERY WORD</p>
+    </section>
+
+    <section class="section" id="grammar">
+      <h2 class="section-title"><span class="rune-red">þ</span> THE GRAMMAR</h2>
+      <p class="section-sub">Normidian does not borrow grammar from English. It has its own.</p>
+      <div class="grammar-grid">
+        <article class="card">
+          <h3>ARTICLES SHIFT WITH CASE</h3>
+          <p>A noun's article changes depending on whether it is the doer, the done-to, or the owner.</p>
+          <pre>living subject   → ðse
+living object    → ðnes
+dead subject     → ðsaþ
+recipient        → þœn</pre>
+        </article>
+        <article class="card">
+          <h3>NOUNS TAKE SUFFIXES</h3>
+          <p>Nouns carry their own case endings on top of the article.</p>
+          <pre>root             → swiarƿ   (sword)
+suffixes         → þnes þes þas þe</pre>
+        </article>
+        <article class="card">
+          <h3>VERBS AGREE WITH YOU</h3>
+          <p>Conjugation is by who is doing it — not a generic -s.</p>
+          <pre>I ...            → root + ies
+you ...          → root + ðus
+he/she/it ...    → root + ƿues</pre>
+        </article>
+        <article class="card">
+          <h3>NEGATION IS A PREFIX</h3>
+          <p>To make something false, bind it with <code>ne-</code>.</p>
+          <pre>see    → ġeseoh
+not see → ne-ġeseoh</pre>
+        </article>
+      </div>
+      <p class="section-sub dim">OLD-ENGLISH-FLAVOURED ROOTS · PROPER NOUNS PASS THROUGH · UNKNOWN WORDS STAY IN [BRACKETS]</p>
+    </section>
+
+    <section class="section" id="translator">
+      <h2 class="section-title"><span class="rune-red">þ</span> THE TRANSLATOR</h2>
+      <p class="section-sub">A desktop app built on CustomTkinter. It translates to and from Normidian.</p>
+      <div class="feature-grid">
+        <article class="card">
+          <h3>ANY LANGUAGE → NORMI DIAN</h3>
+          <p>Type in English — or, over the network, in almost any language — and the engine bridges it through to the tongue.</p>
+        </article>
+        <article class="card">
+          <h3>NORMI DIAN → ANY LANGUAGE</h3>
+          <p>The reverse path too: Normidian out, plain English (or your language) back.</p>
+        </article>
+        <article class="card">
+          <h3>COLOUR-CODED GRAMMAR</h3>
+          <p>Every word is tagged and coloured by part of speech, with a live legend — nouns, verbs, adjectives and the rest, at a glance.</p>
+        </article>
+        <article class="card">
+          <h3>WORKS OFFLINE</h3>
+          <p>The dictionary caches locally. No connection, no problem — it falls back to the last synced word list.</p>
+        </article>
+        <article class="card">
+          <h3>COPY &amp; READ ALOUD</h3>
+          <p>Grab the translation in one click, or have the machine speak it (when pyttsx3 is present).</p>
+        </article>
+        <article class="card">
+          <h3>DICTIONARY MANAGER</h3>
+          <p>A second app for growing the tongue — browse, edit, and save words back to the GitHub word list.</p>
+        </article>
+      </div>
+      <div class="sample-box">
+        <h3>A FEW ROOTS, FROM THE DICTIONARY ITSELF</h3>
+        <table class="wordlist">
+          <tr><td>king</td><td>cyniðg</td><td class="dim">a male monarch who rules a kingdom</td></tr>
+          <tr><td>woman</td><td>wif</td><td class="dim">an adult female human</td></tr>
+          <tr><td>wolf</td><td>wulf</td><td class="dim">a wild canine that hunts in packs</td></tr>
+          <tr><td>crown</td><td>crðnue</td><td class="dim">a headpiece symbolizing royalty</td></tr>
+          <tr><td>throne</td><td>ðœna</td><td class="dim">the ceremonial seat of a ruler</td></tr>
+          <tr><td>sword</td><td>swiarƿ</td><td class="dim">a long bladed weapon</td></tr>
+          <tr><td>see</td><td>ġeseoh</td><td class="dim">to perceive with the eyes</td></tr>
+          <tr><td>quickly</td><td>hræðe</td><td class="dim">at a quick pace</td></tr>
+          <tr><td>never</td><td>næfre</td><td class="dim">not ever</td></tr>
+          <tr><td>and</td><td>ond</td><td class="dim">a conjunction</td></tr>
+        </table>
+      </div>
+    </section>
+
+    <section class="section" id="dictionary">
+      <h2 class="section-title"><span class="rune-red">þ</span> THE DICTIONARY</h2>
+      <p class="section-sub">The word list lives in this repository — the single source of truth the translator pulls from.</p>
+      <div class="dict-box">
+        <p><span class="big-num">761</span> words and counting, split across living nouns, dead nouns, verbs, adjectives, prepositions, adverbs and conjunctions.</p>
+        <p class="dim">English keys → Normidian roots, with a plain-English meaning for every noun, verb and adjective.</p>
+        <div class="dict-actions">
+          <a class="btn btn-primary" href="normidian_dictionary.json" target="_blank" rel="noopener">[ OPEN THE WORD LIST ]</a>
+          <a class="btn btn-ghost" href="https://github.com/notmicrosoft2000-cmd/normidian-lang" target="_blank" rel="noopener">[ THE REPOSITORY ]</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="run">
+      <h2 class="section-title"><span class="rune-red">þ</span> RUN IT</h2>
+      <p class="section-sub">The translator needs Python 3 and a couple of libraries.</p>
+      <pre class="code-block">pip install -r requirements.txt
+python translator_app.py
+
+# or build both standalone executables:
+python build.py</pre>
+      <p class="foot-note">THE DICTIONARY SYNCES FROM THIS REPO ON START · CACHED FOR OFFLINE USE AFTERWARDS</p>
+    </section>
+
+    <section class="section" id="wiki">
+      <h2 class="section-title"><span class="rune-red">þ</span> THE LAND BEHIND THE TONGUE</h2>
+      <p class="section-sub">Normidian is the language of Normidia — a Commonwealth with duchies, a history, a geography, and a military.</p>
+      <div class="dict-actions">
+        <a class="btn btn-primary" href="https://notmicrosoft2000-cmd.github.io/normidia/" target="_blank" rel="noopener">[ VISIT NORMI DIA ]</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-line"></div>
+    <p>NEPTUNE PRODUCTIONS [C] — NORMI DIAN</p>
+    <p class="dim">The tongue, kept alive. <em>Sealde móde, ond lǣnne word.</em></p>
+  </footer>
+
+</body>
+</html>
