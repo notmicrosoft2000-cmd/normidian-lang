@@ -111,9 +111,13 @@
 
   /* ---- dictionary browser ---- */
   var ROW_CAP = 80;
+  var dictFilter = "";
   function renderDict(q) {
     if (!dictList) return;
     var res = window.normidianSearch(q || "");
+    if (dictFilter) {
+      res = res.filter(function (r) { return r.cat === dictFilter; });
+    }
     var total = res.length;
     var shown = res.slice(0, ROW_CAP);
     dictList.innerHTML = "";
@@ -148,7 +152,60 @@
       renderDict(dictInput.value);
     });
   }
+  var dictFilters = document.getElementById("dictFilters");
+  if (dictFilters) {
+    dictFilters.addEventListener("click", function (e) {
+      var chip = e.target.closest(".dchip");
+      if (!chip) return;
+      dictFilter = chip.getAttribute("data-cat") || "";
+      Array.prototype.forEach.call(dictFilters.querySelectorAll(".dchip"), function (c) {
+        c.classList.toggle("active", c === chip);
+      });
+      renderDict(dictInput ? dictInput.value : "");
+    });
+  }
   renderDict("");
+
+  /* ---- word of the day (deterministic per calendar date) ---- */
+  var wotdEl = document.getElementById("wotd");
+  function renderWotd() {
+    if (!wotdEl || !window.normidianSearch) return;
+    var all = window.normidianSearch("");
+    if (!all.length) return;
+    var today = new Date();
+    var key = today.getFullYear() + "-" + (today.getMonth() + 1) + "-" + today.getDate();
+    var h = 0;
+    for (var i = 0; i < key.length; i++) h = (h * 31 + key.charCodeAt(i)) >>> 0;
+    var w = all[h % all.length];
+    var label = (window.NORMIDIAN_CAT_LABEL || {})[w.cat] || w.cat;
+    var head = document.createElement("div");
+    head.className = "wotd-head";
+    head.appendChild(document.createTextNode("TODAY'S WORD"));
+    var date = document.createElement("span");
+    date.className = "wotd-date";
+    date.textContent = key;
+    head.appendChild(date);
+    var body = document.createElement("div");
+    body.className = "wotd-body";
+    var root = document.createElement("div");
+    root.className = "wotd-root";
+    root.textContent = w.root;
+    body.appendChild(root);
+    var en = document.createElement("div");
+    en.className = "wotd-en";
+    en.textContent = w.en + " \u00b7 " + label;
+    body.appendChild(en);
+    wotdEl.innerHTML = "";
+    wotdEl.appendChild(head);
+    wotdEl.appendChild(body);
+    if (w.meaning) {
+      var mean = document.createElement("div");
+      mean.className = "wotd-mean";
+      mean.textContent = w.meaning;
+      wotdEl.appendChild(mean);
+    }
+  }
+  renderWotd();
 
   /* ---- smooth scroll reveal ---- */
   var revealIO = new IntersectionObserver(function (entries) {

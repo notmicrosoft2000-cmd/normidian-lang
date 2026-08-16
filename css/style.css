@@ -396,6 +396,118 @@ footer .dim { margin-top: 8px; letter-spacing: .04em; font-style: italic; }
 .dcat-adverbs .d-root { color: var(--ink); }
 .dcat-conjunctions .d-root { color: #c9a0c9; }
 
+/* ---- word of the day ---- */
+.wotd {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border: 1px solid var(--panel-edge);
+  background: rgba(212, 169, 78, .05);
+  padding: 16px 18px;
+  margin-bottom: 18px;
+  border-radius: 6px;
+}
+.wotd-head {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  letter-spacing: .12em;
+  color: var(--gold);
+}
+.wotd-date { color: var(--ink-dim); margin-left: 8px; }
+.wotd-body { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+.wotd-root { font-family: "IM Fell English", serif; font-size: 30px; color: var(--gold-bright); line-height: 1.1; }
+.wotd-en { font-family: "IBM Plex Mono", monospace; font-size: 12px; letter-spacing: .06em; color: var(--ink); }
+.wotd-mean { font-style: italic; color: var(--ink-dim); font-size: 15px; }
+
+/* ---- dictionary filter chips ---- */
+.dict-filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
+.dchip {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  letter-spacing: .08em;
+  color: var(--ink-dim);
+  background: rgba(0, 0, 0, .3);
+  border: 1px solid var(--panel-edge);
+  padding: 6px 10px;
+  border-radius: 4px;
+  transition: border-color .15s, color .15s, background .15s;
+}
+.dchip:hover { color: var(--ink); border-color: var(--gold); }
+.dchip.active { color: var(--gold-bright); border-color: var(--gold); background: rgba(212, 169, 78, .12); }
+
+/* ---- drills ---- */
+.drill {
+  border: 1px solid var(--panel-edge);
+  background: rgba(0, 0, 0, .22);
+  padding: 18px;
+  border-radius: 6px;
+}
+.drill-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+.drill-mode { display: flex; gap: 8px; flex-wrap: wrap; }
+.dmode {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  letter-spacing: .08em;
+  color: var(--ink-dim);
+  background: rgba(0, 0, 0, .3);
+  border: 1px solid var(--panel-edge);
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: border-color .15s, color .15s, background .15s;
+}
+.dmode:hover { color: var(--ink); border-color: var(--gold); }
+.dmode.active { color: var(--gold-bright); border-color: var(--gold); background: rgba(212, 169, 78, .12); }
+.drill-score {
+  display: flex;
+  gap: 16px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12px;
+  color: var(--ink-dim);
+  letter-spacing: .04em;
+}
+.dstat b { color: var(--gold-bright); font-size: 14px; }
+.drill-q { text-align: center; margin-bottom: 18px; }
+.drill-prompt {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  letter-spacing: .14em;
+  color: var(--ink-dim);
+  margin-bottom: 10px;
+}
+.drill-word { font-family: "IM Fell English", serif; font-size: 34px; color: var(--gold-bright); line-height: 1.15; }
+.drill-word.flash { animation: drillpop .3s ease; }
+@keyframes drillpop { from { opacity: .2; transform: scale(.92); } }
+.drill-cat {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  letter-spacing: .08em;
+  color: var(--ink-dim);
+  margin-top: 6px;
+}
+.drill-opts { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+@media (max-width: 560px) { .drill-opts { grid-template-columns: 1fr; } }
+.qopt {
+  font-family: "IM Fell English", Georgia, serif;
+  font-size: 17px;
+  color: var(--ink);
+  text-align: left;
+  background: rgba(0, 0, 0, .3);
+  border: 1px solid var(--panel-edge);
+  padding: 12px 14px;
+  border-radius: 6px;
+  transition: border-color .15s, background .15s;
+}
+.qopt:hover { border-color: var(--gold); background: rgba(212, 169, 78, .08); }
+.qopt.right { border-color: #a8c9a0; color: #d9ecd6; background: rgba(168, 201, 160, .12); }
+.qopt.wrong { border-color: var(--rune-red); color: #f0b8a0; background: rgba(180, 85, 45, .14); }
+
 /* ---- smooth scroll reveal ---- */
 .reveal { opacity: 0; transform: translateY(20px); transition: opacity .7s ease, transform .7s cubic-bezier(.2, .8, .25, 1.1); transition-delay: var(--d, 0s); }
 .reveal.in { opacity: 1; transform: none; }

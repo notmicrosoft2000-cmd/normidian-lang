@@ -1,5 +1,5 @@
 /* Normidian translator — a lightweight port of the real engine's rules,
-   running fully in the browser against the real 761-word dictionary.
+   running fully in the browser against the real 763-word dictionary.
    Two directions: English → Normidian and Normidian → English. */
 
 (function () {

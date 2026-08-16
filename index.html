@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Normidian — a constructed language with Old English roots. The Normidian Translator app, a live demo, the 761-word dictionary, and downloads. A Neptune Productions project.">
+  <meta name="description" content="Normidian — a constructed language with Old English roots. The Normidian Translator app, a live demo, the 763-word dictionary, and downloads. A Neptune Productions project.">
   <meta name="theme-color" content="#141210">
   <title>NORMI DIAN — the tongue &amp; the translator</title>
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
@@ -35,18 +35,18 @@
       <p class="tagline">A tongue built on Old English. A translator that turns any language into it.</p>
       <div class="hero-note">
         <p>Normidian is a constructed language — grammar rules and all. The words lean Old English: <span class="rune">þ</span> for <em>th</em>, <span class="rune">ð</span> for the soft <em>th</em>, <span class="rune">ƿ</span> for <em>w</em>, <span class="rune">æ</span> and <span class="rune">œ</span> hiding in the vowels.</p>
-        <p>The dictionary is <em>alive</em> — 761 words and growing, kept on GitHub so every copy of the translator can pull the latest. And now, so can this page: the demo below translates against the <em>real</em> word list.</p>
+        <p>The dictionary is <em>alive</em> — 763 words and growing, kept on GitHub so every copy of the translator can pull the latest. And now, so can this page: the demo below translates against the <em>real</em> word list.</p>
       </div>
       <div class="hero-actions">
         <a class="btn btn-primary" href="#try">[ TRY THE TONGUE ]</a>
         <a class="btn btn-ghost" href="#release">[ DOWNLOAD THE APP ]</a>
       </div>
-      <p class="foot-note">SEVEN PARTS OF SPEECH · LIVING AND DEAD NOUNS · CASE SUFFIXES ON EVERY WORD · 761 ROOTS</p>
+      <p class="foot-note">SEVEN PARTS OF SPEECH · LIVING AND DEAD NOUNS · CASE SUFFIXES ON EVERY WORD · 763 ROOTS</p>
     </section>
 
     <section class="section reveal" id="try">
       <h2 class="section-title"><span class="rune-red">þ</span> THE TRANSLATOR — IN YOUR BROWSER</h2>
-      <p class="section-sub">Type in either tongue. It translates live against the real 761-word dictionary and the real grammar — right here, no app needed.</p>
+      <p class="section-sub">Type in either tongue. It translates live against the real 763-word dictionary and the real grammar — right here, no app needed.</p>
       <div class="translator">
         <div class="t-bar">
           <span class="t-dir" id="dirLabel">ENGLISH&nbsp;→&nbsp;NORMI&nbsp;DIAN</span>
@@ -64,6 +64,30 @@
       <div class="legend">
         <span class="dot noun">noun</span><span class="dot verb">verb</span><span class="dot adj">adjective</span><span class="dot prep">preposition</span><span class="dot adv">adverb</span><span class="dot conj">conjunction</span><span class="dot unk">untranslated</span>
       </div>
+    </section>
+
+    <section class="section reveal" id="drills">
+      <h2 class="section-title"><span class="rune-red">þ</span> THE DRILLS</h2>
+      <p class="section-sub">Test yourself against the real dictionary. Four choices, instant feedback, keep your streak alive.</p>
+      <div class="drill" id="drill">
+        <div class="drill-top">
+          <div class="drill-mode">
+            <button class="dmode active" id="dmodeRoot" type="button" data-sfx>ROOT → MEANING</button>
+            <button class="dmode" id="dmodeEn" type="button" data-sfx>MEANING → ROOT</button>
+          </div>
+          <div class="drill-score">
+            <span class="dstat"><b id="dScore">0</b> right</span>
+            <span class="dstat">best streak <b id="dBest">0</b></span>
+          </div>
+        </div>
+        <div class="drill-q">
+          <div class="drill-prompt" id="drillPrompt">WHICH MEANING FITS THIS ROOT?</div>
+          <div class="drill-word" id="drillWord">&nbsp;</div>
+          <div class="drill-cat" id="drillCat"></div>
+        </div>
+        <div class="drill-opts" id="drillOpts"></div>
+      </div>
+      <p class="section-sub dim">Every question is drawn from the live 763-word list — the same source the translator and the app use.</p>
     </section>
 
     <section class="section reveal" id="grammar">
@@ -151,10 +175,21 @@ not see → ne-ġeseoh</pre>
       <h2 class="section-title"><span class="rune-red">þ</span> THE DICTIONARY</h2>
       <p class="section-sub">The word list lives in this repository — the single source of truth the translator pulls from. Search it right here.</p>
       <div class="dict-box">
-        <p><span class="big-num">761</span> words and counting, split across living nouns, dead nouns, verbs, adjectives, prepositions, adverbs and conjunctions.</p>
+        <div class="wotd" id="wotd" aria-live="polite"></div>
+        <p><span class="big-num">763</span> words and counting, split across living nouns, dead nouns, verbs, adjectives, prepositions, adverbs and conjunctions.</p>
         <p class="dim">English keys → Normidian roots, with a plain-English meaning for every noun, verb and adjective.</p>
         <div class="dict-search">
-          <input id="dictSearch" class="dict-input" type="text" placeholder="search all 761 words — in english or in normidian..." autocomplete="off">
+          <div class="dict-filters" id="dictFilters">
+            <button class="dchip active" type="button" data-cat="" data-sfx>ALL</button>
+            <button class="dchip" type="button" data-cat="nouns_living" data-sfx>LIVING NOUNS</button>
+            <button class="dchip" type="button" data-cat="nouns_dead" data-sfx>DEAD NOUNS</button>
+            <button class="dchip" type="button" data-cat="verbs" data-sfx>VERBS</button>
+            <button class="dchip" type="button" data-cat="adjectives" data-sfx>ADJECTIVES</button>
+            <button class="dchip" type="button" data-cat="prepositions" data-sfx>PREPOSITIONS</button>
+            <button class="dchip" type="button" data-cat="adverbs" data-sfx>ADVERBS</button>
+            <button class="dchip" type="button" data-cat="conjunctions" data-sfx>CONJUNCTIONS</button>
+          </div>
+          <input id="dictSearch" class="dict-input" type="text" placeholder="search all 763 words — in english or in normidian..." autocomplete="off">
           <div class="dict-list" id="dictList"></div>
           <p class="dim dict-foot" id="dictCount"></p>
         </div>
@@ -199,6 +234,14 @@ python translator_app.py
 
 # or build both standalone executables:
 python build.py</pre>
+      <p class="section-sub">No app, no window — the tongue from a plain terminal. The CLI translator uses only the standard library:</p>
+      <pre class="code-block">python translator_cli.py "the king sees the wolf"
+# → ðse cyniðg ġeseohƿues ðse wulf
+
+python translator_cli.py --rev "ðse cyniðg ġeseohƿues ðse wulf"
+# → king see wolf
+
+python translator_cli.py            # interactive REPL</pre>
       <p class="foot-note">THE DICTIONARY SYNCES FROM THIS REPO ON START · CACHED FOR OFFLINE USE AFTERWARDS</p>
     </section>
 
@@ -221,6 +264,7 @@ python build.py</pre>
   <script src="js/sfx.js"></script>
   <script src="js/words.js"></script>
   <script src="js/demo.js"></script>
+  <script src="js/drill.js"></script>
   <script src="js/site.js"></script>
 </body>
 </html>
