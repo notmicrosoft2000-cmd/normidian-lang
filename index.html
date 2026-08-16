@@ -44,21 +44,29 @@
       <p class="foot-note">SEVEN PARTS OF SPEECH · LIVING AND DEAD NOUNS · CASE SUFFIXES ON EVERY WORD · 761 ROOTS</p>
     </section>
 
-    <section class="section" id="try">
-      <h2 class="section-title"><span class="rune-red">þ</span> TRY THE TONGUE</h2>
-      <p class="section-sub">Type English. The page translates it using the real dictionary and the real grammar rules, live.</p>
+    <section class="section reveal" id="try">
+      <h2 class="section-title"><span class="rune-red">þ</span> THE TRANSLATOR — IN YOUR BROWSER</h2>
+      <p class="section-sub">Type in either tongue. It translates live against the real 761-word dictionary and the real grammar — right here, no app needed.</p>
       <div class="translator">
-        <div class="t-bar">ENGLISH&nbsp;→&nbsp;NORMI&nbsp;DIAN <span class="t-now">live · against the real word list</span></div>
-        <textarea id="demoIn" class="t-in" rows="2" placeholder="the king sees the wolf quickly...">the king sees the wolf quickly and the wolf never sleeps</textarea>
+        <div class="t-bar">
+          <span class="t-dir" id="dirLabel">ENGLISH&nbsp;→&nbsp;NORMI&nbsp;DIAN</span>
+          <button class="t-swapbtn" id="swapDir" type="button" data-sfx>⇅&nbsp; SWAP DIRECTION</button>
+        </div>
+        <textarea id="demoIn" class="t-in" rows="3" spellcheck="false" placeholder="the king sees the wolf quickly and the wolf never sleeps">the king sees the wolf quickly and the wolf never sleeps</textarea>
         <div class="t-out" id="demoOut"></div>
-        <div class="t-hint">nouns take articles · verbs end in -ƿues · <code>not</code> binds as ne- · unknown words wait in [brackets]</div>
+        <div class="t-tools">
+          <button class="t-tool" id="copyOut" type="button" data-sfx>[ COPY ]</button>
+          <button class="t-tool" id="speakOut" type="button" data-sfx>[ SPEAK ]</button>
+          <span class="t-stat" id="tStat"></span>
+        </div>
+        <div class="t-hint">nouns take articles · verbs end in <code>-ƿues</code> · <code>not</code> binds as <code>ne-</code> · unknown words wait in [brackets] · hover any word for its meaning</div>
       </div>
       <div class="legend">
         <span class="dot noun">noun</span><span class="dot verb">verb</span><span class="dot adj">adjective</span><span class="dot prep">preposition</span><span class="dot adv">adverb</span><span class="dot conj">conjunction</span><span class="dot unk">untranslated</span>
       </div>
     </section>
 
-    <section class="section" id="grammar">
+    <section class="section reveal" id="grammar">
       <h2 class="section-title"><span class="rune-red">þ</span> THE GRAMMAR</h2>
       <p class="section-sub">Normidian does not borrow grammar from English. It has its own.</p>
       <div class="grammar-grid">
@@ -93,7 +101,7 @@ not see → ne-ġeseoh</pre>
       <p class="section-sub dim">OLD-ENGLISH-FLAVOURED ROOTS · PROPER NOUNS PASS THROUGH · UNKNOWN WORDS STAY IN [BRACKETS]</p>
     </section>
 
-    <section class="section" id="translator">
+    <section class="section reveal" id="translator">
       <h2 class="section-title"><span class="rune-red">þ</span> THE APP</h2>
       <p class="section-sub">A desktop app built on CustomTkinter. It translates to and from Normidian.</p>
       <div class="feature-grid">
@@ -139,12 +147,17 @@ not see → ne-ġeseoh</pre>
       </div>
     </section>
 
-    <section class="section" id="dictionary">
+    <section class="section reveal" id="dictionary">
       <h2 class="section-title"><span class="rune-red">þ</span> THE DICTIONARY</h2>
-      <p class="section-sub">The word list lives in this repository — the single source of truth the translator pulls from.</p>
+      <p class="section-sub">The word list lives in this repository — the single source of truth the translator pulls from. Search it right here.</p>
       <div class="dict-box">
         <p><span class="big-num">761</span> words and counting, split across living nouns, dead nouns, verbs, adjectives, prepositions, adverbs and conjunctions.</p>
         <p class="dim">English keys → Normidian roots, with a plain-English meaning for every noun, verb and adjective.</p>
+        <div class="dict-search">
+          <input id="dictSearch" class="dict-input" type="text" placeholder="search all 761 words — in english or in normidian..." autocomplete="off">
+          <div class="dict-list" id="dictList"></div>
+          <p class="dim dict-foot" id="dictCount"></p>
+        </div>
         <div class="dict-actions">
           <a class="btn btn-primary" href="normidian_dictionary.json" target="_blank" rel="noopener">[ OPEN THE WORD LIST ]</a>
           <a class="btn btn-ghost" href="https://github.com/notmicrosoft2000-cmd/normidian-lang" target="_blank" rel="noopener">[ THE REPOSITORY ]</a>
@@ -152,7 +165,7 @@ not see → ne-ġeseoh</pre>
       </div>
     </section>
 
-    <section class="section" id="release">
+    <section class="section reveal" id="release">
       <h2 class="section-title"><span class="rune-red">þ</span> THE RELEASE</h2>
       <p class="section-sub">Windows builds, self-contained. Unzip, double-click, done. No install.</p>
       <div class="dl-grid">
@@ -178,7 +191,7 @@ not see → ne-ġeseoh</pre>
       <p class="section-sub dim">OR <a href="#run" class="inline-link">RUN IT FROM SOURCE</a> ON ANY OS · THE APP PULLS THIS REPO'S DICTIONARY ON START</p>
     </section>
 
-    <section class="section" id="run">
+    <section class="section reveal" id="run">
       <h2 class="section-title"><span class="rune-red">þ</span> RUN IT FROM SOURCE</h2>
       <p class="section-sub">The translator needs Python 3 and a couple of libraries.</p>
       <pre class="code-block">pip install -r requirements.txt
@@ -189,7 +202,7 @@ python build.py</pre>
       <p class="foot-note">THE DICTIONARY SYNCES FROM THIS REPO ON START · CACHED FOR OFFLINE USE AFTERWARDS</p>
     </section>
 
-    <section class="section" id="wiki">
+    <section class="section reveal" id="wiki">
       <h2 class="section-title"><span class="rune-red">þ</span> THE LAND BEHIND THE TONGUE</h2>
       <p class="section-sub">Normidian is the language of Normidia — a Commonwealth with duchies, a history, a geography, and a military.</p>
       <div class="dict-actions">
